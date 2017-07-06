@@ -16,22 +16,13 @@ class csvFileJoiner:
 		if len(self.fileFrames) > 0:	
 			self.dirContainsFile = True
 
-	def joinCSVFiles(self):
+	def joinAndGenerateCSVFiles(self, path, filename):
 		if(self.dirContainsFile):
 			self.joinedFrame = pd.concat(self.fileFrames, join='outer')	
+			self.make_sure_path_exists(path)
+			pd.DataFrame.to_csv(self.joinedFrame,os.path.join(path, filename),header=True, index=False,index_label=None)
 		else:
 			print "The specified directory doesn't have any csv file."
-
-
-	def generateJoinedCSVFile(self, path, filename):
-		try:
-			if(self.dirContainsFile):	
-				self.make_sure_path_exists(path)
-				pd.DataFrame.to_csv(self.joinedFrame,os.path.join(path, filename),header=True, index=False,index_label=None)
-			else:
-				print "Since specified directory doesn't have any csv file, generation of joined csv file can' be done."
-		except TypeError as e:
-			print e
 
 	def make_sure_path_exists(self,path):
 	    try:
@@ -39,13 +30,3 @@ class csvFileJoiner:
 	    except OSError as exception:	
 	    	if exception.errno != errno.EEXIST:
 	            raise
-
-'''
-	def joinAndGenerateCSVFiles(self, path, filename):
-		if(self.dirContainsFile):
-			self.joinedFrame = pd.concat(self.fileFrames, axis=1, join='outer')	
-			self.make_sure_path_exists(path)
-			pd.DataFrame.to_csv(self,os.path.join(path, filename),header=True, index=False,index_label=None)
-		else:
-			print "The specified directory doesn't have any csv file."
-'''
