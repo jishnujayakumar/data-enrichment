@@ -1,15 +1,10 @@
-import os
 import sys
 import csv
-import errno
 import pandas as pd
-import numpy as np
 
 class csvRowFilter:
 
 	def __init__(self,csvFilePath, inputColumnIds):
-
-		#'../input/jishnu_module_test/merged-test-copy.csv'
 
 		try:
 
@@ -27,7 +22,6 @@ class csvRowFilter:
 		for row in csv.reader(self.inputFile):
 			self.ROWS.append(row)
 
-		#self.displayAllRows()
 		self.inital_size = len(self.ROWS)
 		print self.inital_size
 
@@ -41,31 +35,23 @@ class csvRowFilter:
 			print check['error_message']
 			sys.exit()
 
-
-
-		#pull out the key columns data
-
 		keyData = self.getKeyColumnDataWithIndex(columnIndices)
 
 		keysTraversed = []
 		rowsToBeDeleted = [] #These would be removed
-		rowsToBeAdded = [] #pd.concat (axis=0)this would be appended to the csvFile
+		rowsToBeAdded = [] 
 
 		row_num = 0
 
 		for key1 in keyData:
 
-			print "Row number: " +  str(row_num)
+			print "Scanning row number: " +  str(row_num) + " | Total number of rows before filtering:" + str(self.inital_size)
 
 			row_num = row_num + 1
 
 			rowReplicateIndex=[]
 
-			#print "key1" + str(key1) + " | " + "keyTRA" + str(keysTraversed)
-
 			if key1 in keysTraversed:
-
-			#	print "key1 in keysTRA" + str(key1 in keysTraversed)
 
 				continue
 
@@ -77,33 +63,12 @@ class csvRowFilter:
 
 						rowReplicateIndex.append(index)
 
-#						print "rowRep" + str(rowReplicateIndex)
-
-			#	print "rowReplicateIndex"
-
-			#	print len(rowReplicateIndex)
-
-
 				if  len(rowReplicateIndex) > 1:
 
-					#union of the replicate rows
-					#Intersection in individual rows
 					for j in rowReplicateIndex:
 						rowsToBeDeleted.append(j)
 
 					rowsToBeAdded.append(self.rowUnion(rowReplicateIndex))
-					
-			#		print 'rowsToBeAdded'
-			#		print rowsToBeAdded
-			#		print 'seq:rowsToBeDeleted'
-			#		print rowsToBeDeleted
-			#		print 'rowsToBeDeleted'
-					
-			#		for i in rowsToBeDeleted:
-
-						#print i
-
-			#			print self.ROWS[i]						
 					
 				keysTraversed.append(key1)
 
@@ -111,39 +76,19 @@ class csvRowFilter:
 
 		count=0
 
-		#print len(self.ROWS)
-
-		#print 'seq:rowsToBeDeleted'
-		#print rowsToBeDeleted
+		print "Deleting duplicate row entries."
 
 		for i in rowsToBeDeleted:
-	
-			#print "removing at:"
-
-			#print self.ROWS[i-count]
-
 
 			self.ROWS.remove(self.ROWS[i-count])
 
 			count = count + 1
 
-			#print len(self.ROWS)
+		print "Adding merged row entries"
 
 		for i in range(0,len(rowsToBeAdded)):
 
-			#print "Adding:"
-
-			#print rowsToBeAdded[i]
-
 			self.ROWS.append(rowsToBeAdded[i])	
-
-		#Deleting the rowsToBeDeleted and adding rowsToBeadded
-
-		#print self.ROWS[0]
-
-		#self.displayAllRows()
-		print len(self.ROWS)
-
 	
 		print "Filtering process ended."
 
@@ -151,7 +96,7 @@ class csvRowFilter:
 
 		print "Final number of rows: " + str(len(self.ROWS))
 
-		print "Creating the output file"
+		print "Creating the output file in the [output] folder with name [filtered_output.csv]"
 
 		with open("../../output/filtered_output.csv", "wb") as f:
 			writer = csv.writer(f)
