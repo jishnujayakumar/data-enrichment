@@ -16,15 +16,18 @@ class csvFileJoiner:
 		if len(self.fileFrames) > 0:	
 			self.dirContainsFile = True
 
-	def joinAndGenerateCSVFiles(self, path, filename):
+	def joinAndGenerateCSVFiles(self, path, fileName):
 		if(self.dirContainsFile):
 			self.joinedFrame = pd.concat(self.fileFrames, join='outer')	
-			self.make_sure_path_exists(path)
-			pd.DataFrame.to_csv(self.joinedFrame,os.path.join(path, filename),header=True, index=False,index_label=None)
+			self.makeSurePathExists(path)
+			pd.DataFrame.to_csv(self.joinedFrame,os.path.join(path, fileName),header=True, index=False,index_label=None)
 		else:
 			print "The specified directory doesn't have any csv file."
 
-	def make_sure_path_exists(self,path):
+	def removeDuplicatedRowsFrom(self, fileName, columnName):
+		
+
+	def makeSurePathExists(self,path):
 	    try:
 	        os.makedirs(path)
 	    except OSError as exception:	
