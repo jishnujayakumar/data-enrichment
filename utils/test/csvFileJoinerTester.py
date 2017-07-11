@@ -1,4 +1,7 @@
-from csvFileJoiner import csvFileJoiner
+import sys
 import pandas as pd
-joinerObj = csvFileJoiner("../input/jishnu_test/")
+sys.path.append('../')
+from csvFileJoiner import csvFileJoiner
+
+joinerObj = csvFileJoiner("../../input")
 joinerObj.joinAndGenerateCSVFiles("../output/joinedCSV","joined1.csv")
