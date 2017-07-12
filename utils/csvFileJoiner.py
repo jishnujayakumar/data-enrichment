@@ -21,6 +21,7 @@ class csvFileJoiner:
 			self.joinedFrame = pd.concat(self.fileFrames, join='outer')	
 			self.makeSurePathExists(path)
 			pd.DataFrame.to_csv(self.joinedFrame,os.path.join(path, fileName),header=True, index=False,index_label=None)
+			print "Output: " + str(os.path.abspath(os.path.join(path, fileName)))
 		else:
 			print "The specified directory doesn't have any csv file."
 

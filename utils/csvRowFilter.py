@@ -1,3 +1,4 @@
+import os
 import sys
 import csv
 
@@ -24,7 +25,7 @@ class csvRowFilter:
 		self.inital_size = len(self.ROWS)
 		print self.inital_size
 
-	def startFiltering(self):
+	def startFiltering(self, path, fileName):
 		check = self.columnExistsInCSVFile()
 		if(check['status']):
 			print check['message']
@@ -95,11 +96,11 @@ class csvRowFilter:
 
 		print "Final number of rows: " + str(len(self.ROWS))
 
-		print "Creating the output file in the [output] folder with name [filtered_output.csv]"
-
-		with open("../../output/filtered_output.csv", "wb") as f:
+		with open(os.path.join(path, fileName), "wb") as f:
 			writer = csv.writer(f)
 			writer.writerows(self.ROWS)
+
+		print "Output: " + str(os.path.abspath(os.path.join(path, fileName)))
 
 		self.closeInputFile()
 
