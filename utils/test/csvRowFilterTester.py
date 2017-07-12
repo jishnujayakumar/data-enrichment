@@ -1,7 +1,6 @@
 import sys
-import csv
 sys.path.append('../')
-from csvRowFilter import csvRowFilter
+from utils import csvRowFilter
 
 keyColumnIds = ['NAME', 'PINCODE']
 row_filter = csvRowFilter('../../input/test/merged-test-copy.csv', keyColumnIds)
