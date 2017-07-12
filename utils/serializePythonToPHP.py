@@ -61,7 +61,7 @@ class serializePythonToPHP:
 
 					_dict = {}
 
-					for i,item in enumerate(row[1:]):
+					for i,item in enumerate(row):
 
 						_dict[self.columnIds[i]] = item
 
