@@ -1,5 +1,4 @@
 import sys
-import csv
 sys.path.append('../')
 from csvRowFilter import csvRowFilter
 
