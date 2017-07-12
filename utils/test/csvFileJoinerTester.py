@@ -4,4 +4,4 @@ sys.path.append('../')
 from csvFileJoiner import csvFileJoiner
 
 joinerObj = csvFileJoiner("../../input")
-joinerObj.joinAndGenerateCSVFiles("../output/joinedCSV","joined1.csv")
+joinerObj.joinAndGenerateCSVFiles("../../output/", "column_joined_output.csv")
