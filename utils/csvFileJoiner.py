@@ -24,9 +24,6 @@ class csvFileJoiner:
 		else:
 			print "The specified directory doesn't have any csv file."
 
-	def removeDuplicatedRowsFrom(self, fileName, columnName):
-		
-
 	def makeSurePathExists(self,path):
 	    try:
 	        os.makedirs(path)
