@@ -8,7 +8,9 @@ from phpserialize import serialize, unserialize #Python replacement for PHP's se
 
 class serializePythonToPHP:
 
-	def __init__(self,csvFilePath):
+	def __init__(self,csvFilePath, place):
+
+		self.place = place
 
 		self.schoolCodeSet = set()
 
@@ -29,8 +31,10 @@ class serializePythonToPHP:
 			self.ROWS.append(row)
 
 		self.inital_size = len(self.ROWS)
-		
+
 		self.columnIds=self.ROWS[0]
+
+		self.columnIds[0] = self.columnIds[0].upper()
 
 	def getUniquesSchoolCodes(self):
 
@@ -103,9 +107,12 @@ class serializePythonToPHP:
 
 		self.performRowFilter(path, self.temp_file_name, keyColumnIds)
 
+		os.remove(str(os.path.abspath(os.path.join(path, 'serialized_teachers.csv'))))
+		#os.remove(str(os.path.abspath(os.path.join(path, self.temp_file_name))))
+
 	def performRowFilter(self, path, fileName, keyColumnIds):
 		row_filter = csvRowFilter(str(os.path.abspath(os.path.join(path, self.temp_file_name))), keyColumnIds)
-		row_filter.startFiltering(path, "row_filtered_merged_output.csv")
+		row_filter.startFiltering(path+ '../merged', self.place+".csv")
 
 	def write_to_csv(self,path,fileName, data):
 		with open(os.path.join(path, fileName), "w") as f:

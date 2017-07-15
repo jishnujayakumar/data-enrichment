@@ -84,7 +84,7 @@ class csvRowFilter:
 
 			print('deleting duplicate row#:' + str(i-count))
 
-			print self.ROWS[i-count]
+			#print self.ROWS[i-count]
 
 			self.ROWS.remove(self.ROWS[i-count])
 
@@ -96,7 +96,7 @@ class csvRowFilter:
 
 		for i in range(0,len(rowsToBeAdded)):
 
-			print('adding combined row:' + str(i) + ' out of ' + str(rowsToBeAdded))
+			print('adding combined row:' + str(i + 1) + ' out of ' + str(len(rowsToBeAdded)))
 
 			#print self.ROWS[i]
 
