@@ -79,6 +79,7 @@ class csvRowFilter:
 		print "Deleting duplicate row entries."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		rowsToBeDeleted.sort()
 
 		for i in rowsToBeDeleted:
@@ -91,13 +92,20 @@ class csvRowFilter:
 		for i in rowsToBeDeleted:
 
 >>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
+=======
+		for i in rowsToBeDeleted:
+
+>>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 			self.ROWS.remove(self.ROWS[i-count])
 
 			count = count + 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		rowsToBeAdded.sort()
 
+=======
+>>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 =======
 >>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 		print "Adding merged row entries"
@@ -105,10 +113,13 @@ class csvRowFilter:
 		for i in range(0,len(rowsToBeAdded)):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 			print('adding combined row:' + str(i + 1) + ' out of ' + str(len(rowsToBeAdded)))
 
 			#print self.ROWS[i]
 
+=======
+>>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 =======
 >>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 			self.ROWS.append(rowsToBeAdded[i])	
