@@ -1,21 +1,13 @@
 import os
 import sys
 import csv
-<<<<<<< HEAD
-<<<<<<< HEAD
 import errno
 from csvRowFilter import csvRowFilter
 from csvFileJoiner import csvFileJoiner
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 from phpserialize import serialize, unserialize #Python replacement for PHP's serialize | https://gist.githubusercontent.com/sj26/292552/raw/ce68608a590918438c365027ebb17a85d9a0af3e/phpserialize.py
 
 class serializePythonToPHP:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	def __init__(self,csvFilePath, place):
 
 		self.place = place
@@ -24,17 +16,6 @@ class serializePythonToPHP:
 
 		self.temp_file_name = 'raw_merged.csv'
 
-=======
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-	def __init__(self,csvFilePath):
-
-		self.schoolCodeSet = set()
-
-<<<<<<< HEAD
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 		try:
 
 			self.inputFile = open(csvFilePath)
@@ -50,8 +31,6 @@ class serializePythonToPHP:
 			self.ROWS.append(row)
 
 		self.inital_size = len(self.ROWS)
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 		self.columnIds=self.ROWS[0]
 
@@ -74,27 +53,6 @@ class serializePythonToPHP:
 		self.getUniquesSchoolCodes() # get unique schoolcodes
 
 		outputColumnHeaders = [self.columnIds[0]]
-=======
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-		
-		self.columnIds=self.ROWS[0]
-
-	def getUniquesSchoolCodes(self):
-
-		for row in self.ROWS:
-
-			self.schoolCodeSet.add(row[0])
-
-	def startSerializing(self, path, fileName):
-
-		self.getUniquesSchoolCodes() # get unique schoolcodes
-
-		outputColumnHeaders = ['school_code']
-<<<<<<< HEAD
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 
 		data = []
 
@@ -143,8 +101,6 @@ class serializePythonToPHP:
 
 		self.write_to_csv(path, fileName, final_output)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 		joinerObj = csvFileJoiner(path)
 
 		joinerObj.joinAndGenerateCSVFiles(path, self.temp_file_name)
@@ -157,10 +113,6 @@ class serializePythonToPHP:
 	def performRowFilter(self, path, fileName, keyColumnIds):
 		row_filter = csvRowFilter(str(os.path.abspath(os.path.join(path, self.temp_file_name))), keyColumnIds)
 		row_filter.startFiltering(path+ '../merged', self.place+".csv")
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
 
 	def write_to_csv(self,path,fileName, data):
 		with open(os.path.join(path, fileName), "w") as f:
@@ -170,15 +122,9 @@ class serializePythonToPHP:
 		print("Output: " + str(os.path.abspath(os.path.join(path, fileName))))
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	def makeSurePathExists(self,path):
 	    try:
 	        os.makedirs(path)
 	    except OSError as exception:	
 	    	if exception.errno != errno.EEXIST:
 	            raise
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
-=======
->>>>>>> c9b6e7e052bb267f193d4adb562920c8fc898397
