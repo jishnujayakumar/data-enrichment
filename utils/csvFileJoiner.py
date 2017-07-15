@@ -18,7 +18,8 @@ class csvFileJoiner:
 
 	def joinAndGenerateCSVFiles(self, path, fileName):
 		if(self.dirContainsFile):
-			self.joinedFrame = pd.concat(self.fileFrames, join='outer')	
+			self.joinedFrame = pd.concat(self.fileFrames, join='outer')
+			#self.joinedFrame = pd.merge(self.fileFrames[0],self.fileFrames[1], on=keys, how=method)	
 			self.makeSurePathExists(path)
 			pd.DataFrame.to_csv(self.joinedFrame,os.path.join(path, fileName),header=True, index=False,index_label=None)
 			print "Output: " + str(os.path.abspath(os.path.join(path, fileName)))
