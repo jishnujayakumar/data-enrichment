@@ -108,7 +108,7 @@ class serializePythonToPHP:
 		self.performRowFilter(path, self.temp_file_name, keyColumnIds)
 
 		os.remove(str(os.path.abspath(os.path.join(path, 'serialized_teachers.csv'))))
-		#os.remove(str(os.path.abspath(os.path.join(path, self.temp_file_name))))
+		os.remove(str(os.path.abspath(os.path.join(path, self.temp_file_name))))
 
 	def performRowFilter(self, path, fileName, keyColumnIds):
 		row_filter = csvRowFilter(str(os.path.abspath(os.path.join(path, self.temp_file_name))), keyColumnIds)
