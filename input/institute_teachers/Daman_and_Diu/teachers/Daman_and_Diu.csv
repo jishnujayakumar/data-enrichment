@@ -1,4 +1,4 @@
-SCHOOL_CODE,tchname,sex,age,caste,category,post_status,yoj,qual_acad,qual_prof,cls_taught,appointsub,main_taught1,main_taught2,trn_brc,trn_crc,trn_diet,trn_other,nontch_ass,math_upto,eng_upto,scienceupto,workingsince,disability_type,cwsntrained_yn,ac_year
+school_code,tchname,sex,age,caste,category,post_status,yoj,qual_acad,qual_prof,cls_taught,appointsub,main_taught1,main_taught2,trn_brc,trn_crc,trn_diet,trn_other,nontch_ass,math_upto,eng_upto,scienceupto,workingsince,disability_type,cwsntrained_yn,ac_year
 25020102405,Alka Gosavi,Female,46,SC,Teacher,Regular,1987,PG,B.El.Ed,Secondary Only,Geography,Geography,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,Yes,2015-16
 25020102405,Ashwin R. Patel,Male,34,OBC,Teacher,Regular,2008,PG,B.El.Ed,Hr.Sec Only,Business Studies,Business Studies,Business Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2008,N/A,No,2015-16
 25020102405,B. B. Patel,Female,53,OBC,Teacher,Regular,1987,PG,B.El.Ed,Hr.Sec Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,No,2015-16
