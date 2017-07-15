@@ -1,0 +1,600 @@
+school_code,tchname,sex,age,caste,category,post_status,yoj,qual_acad,qual_prof,cls_taught,appointsub,main_taught1,main_taught2,trn_brc,trn_crc,trn_diet,trn_other,nontch_ass,math_upto,eng_upto,scienceupto,workingsince,disability_type,cwsntrained_yn,ac_year
+25020102405,Alka Gosavi,Female,46,SC,Teacher,Regular,1987,PG,B.El.Ed,Secondary Only,Geography,Geography,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,Yes,2015-16
+25020102405,Ashwin R. Patel,Male,34,OBC,Teacher,Regular,2008,PG,B.El.Ed,Hr.Sec Only,Business Studies,Business Studies,Business Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2008,N/A,No,2015-16
+25020102405,B. B. Patel,Female,53,OBC,Teacher,Regular,1987,PG,B.El.Ed,Hr.Sec Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,No,2015-16
+25020102405,Bharti S. Patel,Female,45,OBC,Teacher,Regular,1995,Graduate,B.El.Ed,Secondary Only,Chemistry,Mathematics,Science,0,0,0,0,0,Hr.Sec,Graduate,Hr.Sec,2013,N/A,Yes,2015-16
+25020102405,Bhumika Oza,Female,57,Others,Teacher,Regular,1983,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2008,N/A,Yes,2015-16
+25020102405,Chancal B. Patel,Female,54,OBC,Teacher,Regular,1983,Graduate,B.El.Ed,Secondary Only,Language,Language,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2007,N/A,Yes,2015-16
+25020100103,B. S. Prajapati,Male,37,General,Teacher,Regular,2004,PG,B.El.Ed,Secondary Only,Science,Science,Mathematics,0,0,0,0,0,Graduate,Secondary,Secondary,2012,N/A,Yes,2015-16
+25020100103,Bhavika H. Chauhan,Female,31,SC,Teacher,Regular,2004,PG,B.El.Ed,Secondary Only,Env Studies,Mathematics,Mathematics,0,0,0,0,0,Graduate,Hr.Sec,Hr.Sec,2013,N/A,Yes,2015-16
+25020100103,F.S. Velani,Male,51,OBC,Head Teacher,Regular,1999,Post Doctoral,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2009,N/A,No,2015-16
+25020100103,G. V. Tandel,Male,44,OBC,Teacher,Regular,1997,Graduate,B.El.Ed,Secondary Only,Mathematics,Science,Mathematics,0,0,0,0,0,Graduate,Secondary,Secondary,2010,N/A,Yes,2015-16
+25020100103,H. B. Gohil,Male,46,SC,Teacher,Regular,1990,Secondary,B.El.Ed,Secondary Only,Art Education,Art Education,Health Physical Edu,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,1980,N/A,No,2015-16
+25020100103,H.D.Bhandari,Male,55,OBC,Teacher,Regular,2007,PG,B.El.Ed,Secondary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2012,N/A,Yes,2015-16
+25010100316,ANIL JIVABHAI JETHWA,Male,43,SC,Teacher,Contract,2004,Hr. Sec,Others,Secondary Only,Art Education,Art Education,Art Education,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2006,N/A,No,2015-16
+25010100605,DEVSHI HIRA KAMALIA,Male,56,OBC,Teacher,Regular,1988,Graduate,Others,Secondary Only,Sports,Sports,Sports,0,0,0,0,0,Graduate,Hr.Sec,Hr.Sec,2009,N/A,No,2015-16
+25010100605,DHARMESH KANTILAL KAWA,Male,35,OBC,Teacher,Regular,2011,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2011,N/A,No,2015-16
+25010100605,DINESHCHANDRA GOVIND PATEL,Male,47,OBC,Teacher,Regular,1994,PG,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,PG,Graduate,Secondary,2011,N/A,No,2015-16
+25010100605,HIMAT HARIDAS CHUNDADIA,Male,47,OBC,Teacher,Regular,1998,PG,B.El.Ed,Secondary Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100605,PRAMOD PANCHA SOLANKI,Male,29,SC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,KUM. AMITA PRAVITRACHANDRA CHARANIYA,Female,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,Sec and Hr. Sec,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,KUM. ARADHNA GAURISHANKAR SMART,Male,45,General,Teacher,Regular,1994,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,KUM. DIPALI BABULAL PATEL,Female,24,OBC,Teacher,Contract,2013,Graduate,Others,Sec and Hr. Sec,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100317,KUM. VRINALI HARESHKUMAR SOLANKI,Female,25,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,SHRI AARIF ABDULKARIM LAKHAWALA,Male,49,Others,Teacher,Regular,1992,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,Graduate,Graduate,Secondary,2012,N/A,No,2015-16
+25010100317,SHRI CHIRAG MAHENDRABHAI JETHWA,Male,24,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Graduate,2013,N/A,No,2015-16
+25010100317,SHRI HITENDRA BABU KAPADIA,Male,48,OBC,Acting H.Teacher,Regular,1994,M. Phil,B.El.Ed,Hr.Sec Only,Social Studies,Economics,Economics,0,0,0,0,0,Secondary,Graduate,Secondary,2011,N/A,No,2015-16
+25010100317,SHRI HITENDRA VENISHANKAR ACHARYA,Male,52,General,Teacher,Regular,1988,PG,B.El.Ed,Sec and Hr. Sec,Sports,Sports,Sports,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010100317,SHRI KANABHAI RAMABHAI BARAIYA,Male,31,OBC,Teacher,Contract,2013,PG,B.El.Ed,Sec and Hr. Sec,Social Studies,Social Studies,Geography,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,SHRI PRAVINKUMAR CHUNILAL PATEL,Male,53,General,Teacher,Regular,1986,PG,B.El.Ed,Hr.Sec Only,Social Studies,Social Studies,Others,0,0,0,0,0,Secondary,Secondary,PG,2013,N/A,No,2015-16
+25010100317,SHRI YOGESHKUMAR BHIMJI SOLANKI,Male,44,OBC,Teacher,Regular,1998,Graduate,B.El.Ed,Secondary Only,Science,Science,Science,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2011,N/A,No,2015-16
+25010100317,SMT. BHARTI DEVJI SOLANKI,Female,35,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Mathematics,0,0,0,0,0,Graduate,Graduate,Secondary,2013,N/A,No,2015-16
+25010100317,SMT. CHANDRIKABEN RAMJI CHAUHAN,Female,43,OBC,Teacher,Regular,1997,PG,B.El.Ed,Sec and Hr. Sec,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2011,N/A,No,2015-16
+25010100317,SMT. DHANLAXMI HARJIVAN KAMALIA,Female,33,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,SMT. KANCHANBEN DHIRAJLAL THAKAR,Female,56,General,Teacher,Regular,1988,PG,B.El.Ed,Sec and Hr. Sec,Language,Social Studies,Language,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2011,N/A,No,2015-16
+25010100317,SMT. MANSVITABEN CHUNILAL SOLANKI,Female,34,OBC,Teacher,Contract,2006,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100317,SMT. REENA P. V.,Female,52,General,Teacher,Regular,1988,Graduate,B.El.Ed,Hr.Sec Only,Language,Language,Social Studies,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2008,N/A,No,2015-16
+25010100317,SMT. UCHITA SHIVJIBHAI BARAIYA,Female,24,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Sec and Hr. Sec,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Graduate,2013,N/A,No,2015-16
+25020100803,C. N. Dhodi,Male,35,ST,Teacher,Regular,2007,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Hr.Sec,Secondary,Graduate,2010,N/A,Yes,2015-16
+25020100803,C. V. Halpati,Male,38,ST,Teacher,Regular,2007,PG,M.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Hr.Sec,Secondary,Graduate,2010,Locomotor,Yes,2015-16
+25020100803,D. F. Patel,Male,48,OBC,Teacher,Regular,1998,PG,M.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,Yes,2015-16
+25020101305,Dilipkumar N. dhodi,Male,45,ST,Teacher,Regular,2004,PG,B.El.Ed,Secondary Only,Language,Env. Studies,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2012,N/A,Yes,2015-16
+25020101305,Rajalakshmi Sarangi,Female,44,General,Teacher,Regular,1999,PG,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,PG,Graduate,Secondary,2012,N/A,Yes,2015-16
+25020101305,Tushar D. Mehta,Male,38,General,Teacher,Regular,2004,PG,B.El.Ed,Secondary Only,Mathematics,Mathematics,Chemistry,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2013,N/A,Yes,2015-16
+25020102615,Ailia Pereira,Female,56,General,Teacher,Regular,2004,PG,B.El.Ed,Secondary Only,English,English,Social Studies,1,0,0,1,0,Secondary,Secondary,PG,2004,N/A,Yes,2015-16
+25020102615,Asmuclal Janardhan,Male,56,OBC,Teacher,Regular,1983,PG,B.El.Ed,Secondary Only,Hindi,Hindi,Hindi,1,0,0,1,0,Below Sec,Hr.Sec,Secondary,2008,N/A,Yes,2015-16
+25020102615,Harendra C. Pathak,Male,47,General,Teacher,Regular,1994,Graduate,B.El.Ed,Secondary Only,Science,Science,Mathematics,1,0,0,1,0,Graduate,Hr.Sec,Secondary,2007,N/A,Yes,2015-16
+25020102615,Hemlata D Patel,Female,28,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Regional Lang,Social Studies,Social Studies,1,0,0,1,0,Below Sec,Secondary,Below Sec,2015,N/A,Yes,2015-16
+25020102615,Kaushika Damania,Female,46,OBC,Teacher,Regular,2011,PG,B.El.Ed,Secondary Only,Regional Lang,Regional Lang,Sanskrit,1,0,0,1,0,Secondary,Secondary,Secondary,2012,N/A,Yes,2015-16
+25020102615,Manish Purohit,Male,26,General,Teacher,Contract,2013,Hr. Sec,B.El.Ed,Secondary Only,Health Physical Edu,Health Physical Edu,Health Physical Edu,0,0,0,1,0,Hr.Sec,Graduate,Secondary,2013,N/A,Yes,2015-16
+25020102615,Mini P.,Female,36,General,Teacher,Regular,2013,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Mathematics,1,0,0,1,0,Graduate,Graduate,Secondary,2013,N/A,Yes,2015-16
+25020102615,Pinakini N Daivasna,Female,32,SC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,English,English,Social Studies,1,0,0,1,0,Secondary,PG,Secondary,2015,N/A,Yes,2015-16
+25020102615,Rajesh Halpati,Male,43,SC,Head Teacher,Regular,2009,PG,B.El.Ed,Secondary Only,Accountancy,Hindi,Hindi,1,0,0,1,0,Hr.Sec,Secondary,Graduate,2014,N/A,Yes,2015-16
+25020102615,Rameshchandra J. Patel,Male,47,OBC,Teacher,Regular,1992,PG,B.El.Ed,Secondary Only,Regional Lang,Regional Lang,Regional Lang,1,0,0,1,0,Graduate,Graduate,PG,2007,N/A,Yes,2015-16
+25020102615,Shobha Sendwal,Female,41,General,Teacher,Regular,1999,PG,B.El.Ed,Secondary Only,Science,Science,Mathematics,1,0,0,1,0,Below Sec,Secondary,Below Sec,1999,N/A,Yes,2015-16
+25020102615,Vanesh B. Patel,Male,36,OBC,Teacher,Regular,2008,Secondary,Diploma/Degree in Sp. Edu,Secondary Only,Art Education,Art Education,Art Education,0,0,0,1,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101102,ASHWIN MATHURDAS SHETH,Male,58,General,Head Teacher,Regular,1980,Graduate,B.El.Ed,U.Primary Only,All Subjects,Language,Others,5,2,0,0,0,Secondary,Graduate,Secondary,2007,N/A,No,2015-16
+25010101102,DAXA M. SOLANKI,Female,35,SC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Social Studies,Social Studies,5,2,0,0,0,Secondary,Secondary,Graduate,2013,N/A,No,2015-16
+25010101102,MANISH HIRACHAND JADAV,Male,30,SC,Teacher,Contract,2011,Graduate,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Graduate,Secondary,2012,N/A,No,2015-16
+25020101102,R F TANDEL,Male,45,OBC,Teacher,Regular,2010,Graduate,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Graduate,Graduate,Below Sec,2010,N/A,No,2015-16
+25020100401,SHRI DIPAKKUMAR KESHAVRAV CHONKAR,Male,42,General,Teacher,Regular,2000,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,0,0,0,15,Secondary,Secondary,Secondary,2012,N/A,No,2015-16
+25020100401,SHRI RAMESH MONIYA PATEL,Male,48,OBC,Acting H.Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,0,0,0,15,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020100401,SMT REKAH B KAMLI,Female,41,ST,Teacher,Regular,2000,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,3,0,0,0,Secondary,Secondary,Secondary,2011,N/A,No,2015-16
+25020100402,BHARTI D PATEL,Female,37,OBC,Teacher,Regular,1997,PG,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2012,N/A,No,2015-16
+25020100402,DARSHANA V DAMANIA,Female,34,SC,Teacher,Contract,2014,Graduate,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25020101903,BHARAT C MAHYAVANSHI,Male,52,SC,Head Teacher,Regular,1985,Secondary,Diploma or Certificate,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020101904,KIRIT B PATEL,Male,36,OBC,Teacher,Regular,2014,PG,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,2,0,45,Hr.Sec,Secondary,Secondary,2013,N/A,No,2015-16
+25020100201,CHAMPAK M PATEL,Male,54,OBC,Head Teacher,Regular,1982,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2006,N/A,No,2015-16
+25020100201,JIGNABEN P BAGADA,Female,23,General,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Graduate,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020100201,PRATIXA S PATEL,Female,26,OBC,Teacher,Contract,2014,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020100201,SHAILESH J HALPATI,Male,49,ST,Teacher,Regular,1990,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Hr.Sec,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101201,SHRI JAYANTIBHAI C PATEL,Male,40,OBC,Teacher,Regular,1999,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2009,N/A,No,2015-16
+25020101201,SMT DIPIKA R PATEL,Female,31,ST,Teacher,Contract,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,3,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101201,SMT HANSABEN N VAGHELA ,Female,52,SC,Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,5,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101201,SMT JASUMATI V PATEL,Female,56,OBC,Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,5,1,2,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101201,SMT JIGNISHABEN P PATEL,Female,31,ST,Teacher,Contract,2007,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,3,0,Graduate,Graduate,Secondary,2013,N/A,No,2015-16
+25020101202,HETAL A MAHYAVANSHI,Male,27,SC,Instructor,Part-Time,2013,Hr. Sec,Diploma/Degree in Sp. Edu,U.Primary Only,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101202,SMT ANSUYABEN B DESAI,Female,58,Others,Teacher,Regular,1986,Secondary,Diploma or Certificate,U.Primary Only,All Subjects,Health Physical Edu,Health Physical Edu,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101202,SMT HETALBEN M PATEL,Female,34,OBC,Teacher,Regular,2007,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Social Studies,0,0,0,0,0,Secondary,Graduate,Graduate,2010,N/A,No,2015-16
+25020101202,SMT MANJUBEN.C.RANA,Female,58,Others,Head Teacher,Regular,1980,Graduate,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2007,N/A,No,2015-16
+25020101202,SREE NAVEENCHANDRA K PATEL,Male,47,OBC,Teacher,Regular,1990,Secondary,Diploma or Certificate,U.Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102101,DAXABEN R PATEL,Female,30,General,Teacher,Regular,2007,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Below Sec,2011,N/A,No,2015-16
+25020102101,DIPTIBEN K UPADHYAY,Female,47,General,Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Below Sec,2012,N/A,No,2015-16
+25020102101,HEMLATABEN T PATEL,Female,31,OBC,Teacher,Regular,2004,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Below Sec,2014,N/A,No,2015-16
+25020102001,MEHAL M PATEL,Female,24,OBC,Teacher,Contract,2014,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Below Sec,2010,N/A,No,2015-16
+25020102001,REEMPAL R RATHOD,Female,25,SC,Teacher,Contract,2014,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Below Sec,2014,N/A,No,2015-16
+25020102001,SMT AMBABEN M PATEL,Female,54,OBC,Head Teacher,Regular,1991,Below Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Below Sec,2012,N/A,No,2015-16
+25020102001,SMT PRAGATI D PATEL,Female,34,OBC,Teacher,Regular,2007,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Below Sec,2014,N/A,No,2015-16
+25020102002,KAMINI D BHATT,Female,39,General,Teacher,Regular,2004,Graduate,Diploma or Certificate,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102002,NEETABEN G PATEL,Female,33,General,Head Teacher,Regular,2004,Graduate,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Mathematics,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102002,SUMANBEN M PATEL,Female,46,General,Teacher,Regular,1990,Secondary,Diploma or Certificate,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101803,Kamlesh Govind Tandel,Male,45,OBC,Teacher,Regular,1997,PG,B.El.Ed,Secondary Only,Science,Science,Mathematics,0,0,0,0,0,Graduate,Graduate,Secondary,2012,N/A,No,2015-16
+25010101106,BABULAL BAWA SOLANKI,Male,59,OBC,Teacher,Regular,1995,Graduate,B.El.Ed,Secondary Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Secondary,Secondary,Graduate,2006,N/A,No,2015-16
+25010101106,BARAIYA MANJI PUNJA,Male,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Sanskrit,Sanskrit,Sanskrit,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2015,N/A,No,2015-16
+25010101106,BHAVESH KANJI SOLANKI,Male,30,OBC,Teacher,Contract,2013,PG,Others,Secondary Only,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010101106,BRIJAL MOHANBHAI PATEL,Female,26,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Science,Science,Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010101106,DARSHNA NATVARLAL KAMALIA,Female,25,OBC,Teacher,Contract,2013,PG,B.El.Ed,Sec and Hr. Sec,Mathematics,Mathematics,Mathematics,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010101106,DIWALI NARAN JADAV,Female,52,SC,Teacher,Regular,1983,PG,Diploma/Degree in Sp. Edu,Secondary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101106,HARILAL JIVA VALA,Male,46,OBC,Head Teacher,Regular,2010,PG,M.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Graduate,2012,N/A,No,2015-16
+25010101303,BHAVYESH VIRA SOLANKI,Male,27,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,Secondary,2012,N/A,No,2015-16
+25010101303,HETAL BABU SIKOTARIYA,Female,30,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2012,N/A,No,2015-16
+25010101303,JAYENDRA DEVSHANKAR SMART,Male,58,General,Teacher,Regular,1983,Secondary,Others,Secondary Only,Sports,Sports,Sports,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101303,JYOTI JIVA BARAIYA,Female,35,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Social Studies,Social Studies,Language,0,0,0,0,0,Secondary,Secondary,PG,2012,N/A,No,2015-16
+25010101303,KAMLESH NANJI CHARANIYA,Male,27,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,Secondary,2013,N/A,No,2015-16
+25010101303,MAHALAXMI CHHAGAN VALA,Female,29,OBC,Teacher,Contract,2012,Graduate,B.El.Ed,Secondary Only,Language,Language,Social Studies,0,0,0,0,0,Secondary,Secondary,Secondary,2012,N/A,No,2015-16
+25010101303,MITA HAZABHAI MORI,Female,23,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2014,N/A,No,2015-16
+25010101303,RACHANA ASHVINKUMAR SHAH,Female,24,General,Teacher,Contract,2014,PG,B.El.Ed,Secondary Only,Science,Science,Science,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25020102103,BEENA M UPADHYAY,Female,46,General,Teacher,Regular,1989,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,7,0,0,0,0,Secondary,Secondary,Secondary,2006,N/A,No,2015-16
+25020102103,BINA RANJITBHAI PATEL,Female,23,Others,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,7,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102103,CHANDRAKANT G PATEL,Male,57,OBC,Head Teacher,Regular,1978,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,3,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102103,INDUBEN D PATEL,Female,54,General,Teacher,Regular,1990,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,6,0,0,0,0,Secondary,Graduate,Hr.Sec,2012,N/A,No,2015-16
+25020102103,KANCHANBEN PATEL,Female,54,OBC,Teacher,Regular,1984,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020102103,SAVITBEN B PATEL,Female,57,OBC,Teacher,Regular,1982,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,6,0,0,0,0,Secondary,Secondary,Secondary,1997,N/A,No,2015-16
+25020101701,BRIJESH C PATEL,Male,39,OBC,Teacher,Regular,2004,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,0,0,Secondary,Graduate,Secondary,2011,N/A,No,2015-16
+25020101701,SHRI INTEKHAN.M.DARJI,Male,42,OBC,Teacher,Regular,1999,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,0,0,Secondary,Secondary,Secondary,2002,N/A,No,2015-16
+25020100301,BHAVIKA D PATEL,Female,42,ST,Teacher,Regular,1994,Below Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Secondary,2010,N/A,No,2015-16
+25020100301,MUKESH S HALPATI,Male,45,ST,Teacher,Regular,2000,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Secondary,2015,N/A,No,2015-16
+25010101712,BHANUMATIBEN  ARVINDBHAI PATEL,Female,33,ST,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010101712,KAMLABEN MOHAN BAMANIA,Female,27,OBC,Teacher,Contract,2013,PG,B.El.Ed,Sec and Hr. Sec,English,English,English,0,0,0,0,0,Secondary,Graduate,Secondary,2013,N/A,No,2015-16
+25010101713,KUM. DEEPA LALITCHANDRA JOSHI,Female,40,General,Teacher,Contract,2006,Ph.D,B.El.Ed,Hr.Sec Only,Social Studies,History,Geography,0,0,0,0,0,Secondary,Hr.Sec,Ph.D,2010,N/A,No,2015-16
+25010101713,KUM. JASHVANTI KANJI BARAIYA,Female,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101713,KUM. PRITI NARSI SOLANKI,Female,29,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101713,KUM. TANVI HARILAL CHAUHAN,Female,28,SC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,10,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101713,KUM. TARAVANTI KANJI SIKOTARIYA,Female,28,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI AMRATLAL ARJANG MAKWANA,Male,50,OBC,Teacher,Regular,1987,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Below Sec,2011,N/A,Yes,2015-16
+25010101713,SHRI ASHOK MANJI FULBARIA,Male,51,OBC,Teacher,Regular,1988,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2009,Visual,No,2015-16
+25010101713,SHRI ASHOK VIRA BARIA,Male,48,OBC,Teacher,Regular,1998,Graduate,B.El.Ed,Secondary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI BHAVIK JIVABHAI SOLANKI,Male,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Science,Science,Mathematics,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI DHANJI SOMA SOLANKI,Male,41,OBC,Teacher,Regular,1997,PG,B.El.Ed,Secondary Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,PG,Hr.Sec,PG,2011,N/A,Yes,2015-16
+25010101713,SHRI DINESH PITHABHAI MER,Male,36,SC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25010101713,SHRI HARESH NATHU KAPADIA,Male,47,OBC,Teacher,Regular,1997,PG,B.El.Ed,Secondary Only,Social Studies,Social Studies,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2011,N/A,No,2015-16
+25010101713,SHRI HARKHCHAND VARJANG BARAIYA,Male,44,OBC,Acting H.Teacher,Regular,2004,PG,B.El.Ed,Sec and Hr. Sec,Biology,Science,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25010101713,SHRI JAYENDRA PREMJI,Male,36,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,10,0,PG,Secondary,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI MAHYUDIN HUSEN MANSURI,Male,33,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,10,0,Secondary,PG,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI MANISH VIRJI SOLANKI,Male,27,SC,Teacher,Contract,2013,Graduate,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI NANJI JIVA JETHWA,Male,44,OBC,Teacher,Regular,2012,PG,M.Ed,Sec and Hr. Sec,Health Physical Edu,Health Physical Edu,Health Physical Edu,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2012,N/A,No,2015-16
+25010101713,SHRI NANJI KARSAN SOLANKI,Male,46,OBC,Teacher,Regular,1994,Graduate,Diploma/Degree in Sp. Edu,Secondary Only,Fine Arts,Fine Arts,Fine Arts,0,0,0,0,0,Secondary,Graduate,Graduate,2011,N/A,No,2015-16
+25010101713,SHRI NARESH PREMJI BAMANIA,Male,43,OBC,Teacher,Regular,1997,PG,B.El.Ed,Secondary Only,Accountancy,Accountancy,Accountancy,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2011,N/A,No,2015-16
+25010101713,SHRI NILESHKUMAR MOHAN BARAIYA,Male,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101713,SHRI SHAMJI BHAGWAN SIKOTARIYA,Male,43,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,Others,No,2015-16
+25010101713,SHRI VIPUL KANTILAL PARMAR,Male,38,General,Teacher,Regular,2004,PG,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,PG,PG,Secondary,2013,N/A,No,2015-16
+25010101713,SMT. BINDU VITHALBHARTI GOSWAMI,Female,42,OBC,Teacher,Contract,2006,PG,B.El.Ed,Hr.Sec Only,Geography,History,Geography,0,0,0,0,0,Secondary,Secondary,PG,1010,N/A,No,2015-16
+25010101713,SMT. KUNDAN GULAB PATEL,Female,27,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,10,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101003,AMISHA PRITAN RATHOD,Female,34,SC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101003,DILIP KANJI BAMANIYA,Male,26,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2012,N/A,No,2015-16
+25010101003,HIMANSHU MAHESH SIKOTARIA,Male,27,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Science,Science,Mathematics,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2013,N/A,No,2015-16
+25010101003,JAYANT PREMJI BAMANIA,Male,32,OBC,Teacher,Contract,2013,PG,B.El.Ed,Secondary Only,Health Physical Edu,Health Physical Edu,Health Physical Edu,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2013,N/A,No,2015-16
+25010101003,KANTILAL HARIDAS CHUNDARIYA,Male,55,OBC,Teacher,Regular,2007,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2012,N/A,No,2015-16
+25010101003,MANHAR SAKAR SOLANKI,Male,33,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2012,Locomotor,No,2015-16
+25010101003,PIYUBEN SAVJIBHAI DHOKIYA,Female,33,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,Secondary,2012,N/A,No,2015-16
+25010101003,RAXITA KANTILAL FULBARIYA,Female,26,OBC,Teacher,Contract,2012,PG,B.El.Ed,Secondary Only,Social Studies,Social Studies,Language,0,0,0,0,0,Secondary,Hr.Sec,Graduate,2012,N/A,No,2015-16
+25020101703,AKHILA NAIR,Female,31,General,Teacher,Regular,2013,Hr. Sec,Diploma/Degree in Sp. Edu,Primary with UP,Comp. Science,Comp. Science,Mathematics,0,0,0,0,0,Graduate,Graduate,Secondary,2013,N/A,No,2015-16
+25020101703,AMSA RANI,Female,39,General,Teacher,Regular,2010,Hr. Sec,B.El.Ed,Primary with UP,All Subjects,Mathematics,Work Education,0,0,0,0,0,Graduate,Graduate,Secondary,2010,N/A,No,2015-16
+25020101703,ANITA PATIL,Female,44,General,Teacher,Regular,2012,Graduate,B.El.Ed,Primary Only,All Subjects,Mathematics,Comp Science,0,0,0,0,0,PG,Graduate,Secondary,2012,N/A,No,2015-16
+25020101703,ANNAMMA STEPHEN,Female,45,General,Teacher,Regular,2012,Hr. Sec,None,Primary Only,Mathematics,Mathematics,Science,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2012,N/A,No,2015-16
+25020101703,ARTI DAMANIA,Female,35,SC,Teacher,Regular,2007,Hr. Sec,None,Primary Only,Language,Language,Mathematics,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101703,CARMELINA PAREIRA ,Female,49,General,Teacher,Regular,2008,Secondary,None,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Ph.D,2008,N/A,No,2015-16
+25020101703,DAKSHA M MANGE,Female,30,General,Teacher,Regular,2013,Graduate,None,Primary Only,Mathematics,Mathematics,Mathematics,0,0,0,0,0,Graduate,Graduate,Secondary,2013,N/A,No,2015-16
+25020101703,DEBASIS M MAHAPTRA,Male,26,General,Teacher,Regular,2013,Ph.D,Diploma/Degree in Sp. Edu,Sec and Hr. Sec,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Graduate,Graduate,Hr.Sec,2013,N/A,No,2015-16
+25020101703,GABRIEL GUEDES,Male,68,General,Principal,Regular,2007,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,PG,Secondary,2007,N/A,No,2015-16
+25020101703,GRISHMA NAIK,Female,29,General,Teacher,Regular,2013,PG,B.El.Ed,U.Primary and Sec,Science,Science,Biology,0,0,0,0,0,Secondary,PG,Secondary,2013,N/A,No,2015-16
+25020101703,JASMEET KAUR RENES,Female,39,General,Teacher,Regular,2010,PG,B.El.Ed,Hr.Sec Only,Language,Social Studies,Language,0,0,0,0,0,Hr.Sec,Graduate,Ph.D,2010,N/A,No,2015-16
+25020101703,KAUSHALKUMAR N PATEL,Male,26,General,Teacher,Regular,2013,Ph.D,Diploma/Degree in Sp. Edu,Sec and Hr. Sec,Others,Business Studies,Comp Science,0,0,0,0,0,PG,PG,Secondary,2013,N/A,No,2015-16
+25020101703,KAVITA TIWARI,Female,29,General,Teacher,Regular,2013,Graduate,B.El.Ed,Sec and Hr. Sec,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Graduate,2013,N/A,No,2015-16
+25020101703,KOCHU RANI JOSEPH,Female,44,General,Teacher,Regular,2011,Graduate,B.El.Ed,Primary with UP,Language,Language,Language,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2011,N/A,No,2015-16
+25020101703,MAMTA DAS,Female,42,General,Teacher,Regular,2012,Graduate,None,Primary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Graduate,Graduate,2012,N/A,No,2015-16
+25020101703,NILESWARI GARASIYA,Female,29,General,Teacher,Regular,2013,Graduate,B.El.Ed,Primary Only,All Subjects,Mathematics,Env. Studies,0,0,0,0,0,Graduate,Graduate,Hr.Sec,2013,N/A,No,2015-16
+25020101703,PRAGNA PRAVIN SOLANKI,Female,24,SC,Teacher,Regular,2013,Graduate,None,Primary Only,All Subjects,Language,Env. Studies,0,0,0,0,0,Hr.Sec,Graduate,Hr.Sec,2013,N/A,No,2015-16
+25020101703,PRATIKSHA PATEL,Female,24,General,Teacher,Regular,2012,Graduate,B.El.Ed,Sec and Hr. Sec,All Subjects,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25020101703,PRIYANKA KOLI,Female,30,General,Teacher,Regular,2012,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25020101703,PURVI SOLANKI,Female,24,SC,Teacher,Regular,2013,Graduate,None,Primary Only,All Subjects,Language,Env. Studies,0,0,0,0,0,Hr.Sec,Graduate,Hr.Sec,2013,N/A,No,2015-16
+25020101703,RAJAN SAHOO,Male,46,General,Teacher,Regular,2012,Graduate,None,U.Primary and Sec,Mathematics,Mathematics,Others,0,0,0,0,0,Graduate,Graduate,Secondary,2012,N/A,No,2015-16
+25020101703,RESHMA MORE,Female,28,General,Teacher,Regular,2013,Graduate,B.El.Ed,Primary with UP,All Subjects,Language,Env. Studies,0,0,0,0,0,Secondary,Graduate,Secondary,2013,N/A,No,2015-16
+25020101703,SABITA LENKA,Female,40,General,Teacher,Regular,2012,Graduate,None,Primary Only,All Subjects,Language,Env. Studies,0,0,0,0,0,Secondary,Graduate,Graduate,2012,N/A,No,2015-16
+25020101703,SANJIBITA TRIPATHY,Female,41,General,Teacher,Regular,2010,PG,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,PG,Hr.Sec,Ph.D,2010,N/A,No,2015-16
+25020101703,SARITA SINGH,Female,29,General,Teacher,Regular,2011,Graduate,B.El.Ed,Primary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Graduate,2011,N/A,No,2015-16
+25020101703,SMRUTIREKHA MALLICK,Female,40,ST,Teacher,Regular,2009,Graduate,Others,Primary with UP,All Subjects,Language,Mathematics,0,0,0,0,0,Graduate,Graduate,Ph.D,2009,N/A,No,2015-16
+25020101703,SONAL DAREWALLA,Female,35,General,Teacher,Regular,2013,Hr. Sec,None,Primary Only,Mathematics,Mathematics,Comp Science,0,0,0,0,0,Secondary,Below Sec,Secondary,2013,N/A,No,2015-16
+25020101703,SUNIL PATEL,Male,37,ST,Teacher,Regular,2011,Graduate,None,Primary with UP,All Subjects,Language,Social Studies,0,0,0,0,0,Secondary,Graduate,Secondary,2011,N/A,No,2015-16
+25020101703,TANDEL DEVCHAND,Male,46,OBC,Teacher,Regular,2010,Graduate,B.El.Ed,Primary with UP,All Subjects,Health Physical Edu,Health Physical Edu,0,0,0,0,0,Secondary,Secondary,Ph.D,2010,N/A,No,2015-16
+25020101703,VASANTI TANDEL,Female,36,OBC,Teacher,Regular,2011,Graduate,B.El.Ed,Primary with UP,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Ph.D,2011,N/A,No,2015-16
+25020101703,VIJITHAKUMARI TACUR,Female,25,General,Teacher,Regular,2013,PG,B.El.Ed,Sec and Hr. Sec,Others,Others,Business Studies,0,0,0,0,0,PG,Graduate,Secondary,2013,N/A,No,2015-16
+25020101703,VIPUL J PATEL,Male,37,SC,Teacher,Regular,2010,Graduate,B.El.Ed,U.Primary and Sec,Social Studies,Social Studies,Mathematics,0,0,0,0,0,Graduate,Graduate,Ph.D,2010,N/A,No,2015-16
+25020102301,KUM HEENA B PATEL,Female,27,OBC,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102301,KUM SWETA N MAHYAVANSHI,Female,24,SC,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102301,SHRI MAHESH G PATEL,Male,40,OBC,Teacher,Regular,1999,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102301,SMT GAURIBEN K PATEL,Female,57,OBC,Teacher,Regular,1994,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Secondary,Secondary,Below Sec,2013,N/A,No,2015-16
+25020102301,SMT KAILASH V PATEL,Female,30,OBC,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,4,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102302,CHOTTUBHAI V PATEL,Male,58,OBC,Head Teacher,Regular,1984,Hr. Sec,Others,U.Primary Only,Env Studies,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25020100701,DIPIKA L BHANDARI,Female,42,OBC,Teacher,Regular,2005,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Language,0,0,0,2,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25020100701,MR PARSOTTAM U MITNA,Male,37,OBC,Teacher,Regular,1999,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,2,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020100701,NARESH N PATEL,Male,36,OBC,Teacher,Regular,2004,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,2,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020100701,SMT ASHVINABEN L VAGHELA,Female,57,SC,Head Teacher,Regular,1982,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,2,0,Secondary,Secondary,Secondary,2002,N/A,No,2015-16
+25020100801,SHRI PRAVIN D PATEL,Male,58,General,Head Teacher,Regular,1979,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,8,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020100801,SMT DIMPLE U DAMANIA,Female,35,SC,Teacher,Regular,2004,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2004,N/A,No,2015-16
+25020100801,SMT ILABEN C HALPATI,Female,44,ST,Teacher,Regular,1992,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,6,0,Secondary,Secondary,Ph.D,2015,N/A,No,2015-16
+25010100301,ARTI NITINKUMAR PANDYA,Female,37,General,Teacher,Regular,1999,PG,M.Ed,Primary Only,All Subjects,Mathematics,Language,5,2,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2010,N/A,No,2015-16
+25010100301,NIRMALA MANDAN SOLANKI,Female,59,OBC,Teacher,Regular,1980,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2003,N/A,No,2015-16
+25010100301,PRAVIN MOHANBHAI PATEL,Male,27,OBC,Teacher,Contract,2013,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,Language,5,2,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010100301,TRUPTI RAMJI KAMALIYA,Female,32,OBC,Teacher,Regular,2004,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,Language,5,2,0,6,0,Hr.Sec,Hr.Sec,Hr.Sec,2006,N/A,No,2015-16
+25010100302,KUM NIRMALABEN R BARAIA,Female,53,OBC,Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2000,N/A,No,2015-16
+25010100302,SHRI VIRCHAND RAGHAV BARIA,Male,57,OBC,Teacher,Regular,1983,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Hr.Sec,2015,N/A,No,2015-16
+25010100303,KUM. BHAGYASHREE MAHENDRA CHAUHAN,Female,23,General,Teacher,Contract,2013,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010100303,SMT HARSHIDA KARSAN PATEL,Female,43,General,Teacher,Regular,1992,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25010100303,SMT. JALPA KISHOR VAGHELA,Female,31,General,Teacher,Contract,2007,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,0,0,Secondary,Secondary,Secondary,2009,N/A,No,2015-16
+25010100303,SMT. JIGNASHA BABU MAKWANA,Female,37,General,Teacher,Regular,2007,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010100303,SMT. JOHRABANU SAHBUDIN JIVANI,Female,41,General,Teacher,Regular,1997,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25010100303,SMT. RAMILA MANJI SOLANKI,Female,52,General,Acting H.Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,0,0,Secondary,Secondary,Secondary,2012,N/A,No,2015-16
+25010100303,SMT. RASHMI BHIMJI PATELIYA,Female,34,General,Teacher,Regular,2004,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,2,0,6,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010100304,SHRI ASHVINKUMAR KANJI SOLANKI,Male,33,OBC,Instructor,Part-Time,2013,PG,B.El.Ed,U.Primary Only,Comp. Science,Language,Comp Science,5,2,0,0,0,Secondary,Graduate,Secondary,2013,N/A,No,2015-16
+25010100304,SHRI HARSHAD NATHU SOLANKI,Male,31,OBC,Instructor,Part-Time,2013,Graduate,B.El.Ed,U.Primary Only,Music,Music,Music,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2013,Visual,No,2015-16
+25010100304,SHRI HUSSAIN AHMED GHORI,Male,52,OBC,Teacher,Regular,1983,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2006,N/A,No,2015-16
+25010100304,SHRI PREMJI VIRA BARIYA,Male,59,OBC,Head Teacher,Regular,1984,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Graduate,Graduate,Secondary,2012,N/A,No,2015-16
+25010100304,SMT ANURADHA MANSHUKH SOLANKI,Female,42,OBC,Teacher,Regular,1999,Secondary,Diploma or Certificate,U.Primary Only,All Subjects,Language,Mathematics,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010100304,SMT DHRUTI BHAIDAS PATEL,Female,26,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010100304,SMT KANISHKA SHASHIKANT SOLANKI,Female,32,OBC,Teacher,Regular,2007,PG,Diploma or Certificate,U.Primary Only,All Subjects,Mathematics,Science,5,2,0,0,0,Hr.Sec,Secondary,Secondary,2007,N/A,No,2015-16
+25010100304,SMT NANDITA MUKESH VAJA,Female,35,General,Teacher,Contract,2007,Graduate,B.El.Ed,U.Primary Only,All Subjects,Social Studies,Language,5,2,0,6,0,Secondary,Hr.Sec,Graduate,2013,N/A,No,2015-16
+25020100601,KUM ASHWINA A PATEL,Female,24,OBC,Teacher,Contract,2014,Hr. Sec,Others,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,7,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020100601,SHRI MAHESHKUMAR S HALPATI,Male,49,ST,Head Teacher,Regular,1986,Hr. Sec,Others,Primary Only,All Subjects,All Subjects,All Subjects,0,1,0,1,0,Secondary,Secondary,Hr.Sec,2010,N/A,No,2015-16
+25020100601,SMT MAYURIBEN I MAHYAVANSHI,Female,25,SC,Teacher,Contract,2014,Hr. Sec,Others,Primary Only,All Subjects,All Subjects,All Subjects,0,1,0,8,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101902,SHRI SUMAN K PATEL,Male,50,OBC,Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,2,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020100204,DIPTI R BHAGAT,Female,37,General,Teacher,Regular,1999,PG,B.El.Ed,U.Primary Only,All Subjects,All Subjects,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020100101,ANITABEN K RATHOD,Female,35,OBC,Teacher,Contract,2007,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2012,N/A,No,2015-16
+25020100101,PIYUSH S PATEL,Male,24,OBC,Teacher,Contract,2014,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020100101,SUMANBEN D PATEL,Female,50,General,Teacher,Regular,1983,PG,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020100101,USHABEN V PATEL,Female,41,OBC,Teacher,Regular,1998,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101101,SHRI KANTIBHAI M PATEL,Male,50,Others,Head Teacher,Regular,1983,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,1,0,2,5,0,Hr.Sec,Secondary,Secondary,2012,N/A,No,2015-16
+25020100102,AARTI N GAJRE,Female,31,General,Teacher,Regular,2004,Graduate,Diploma or Certificate,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,Yes,2015-16
+25020100102,C V PATEL,Male,37,OBC,Teacher,Regular,2007,PG,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2012,N/A,Yes,2015-16
+25010100305,KUM. CHETNA L. KAMALIA,Female,40,OBC,Teacher,Contract,2007,PG,M.Ed,U.Primary Only,All Subjects,Language,Social Studies,5,2,0,0,0,Secondary,Secondary,Hr.Sec,2007,N/A,No,2015-16
+25010100305,KUM. DHRUTI R CHAUHAN,Female,37,OBC,Teacher,Regular,1999,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Hr.Sec,Hr.Sec,2011,N/A,No,2015-16
+25010100305,KUM. DIVYA V. CHAUHAN,Female,39,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Science,Language,5,2,0,0,0,Secondary,Below Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100305,KUM. KAUSHALYA N. SOLANKI,Female,39,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Language,5,2,0,0,0,Secondary,Below Sec,Secondary,2013,N/A,No,2015-16
+25010100305,KUM. KRUPALI M. KAPADIA,Female,27,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Science,Language,5,2,0,6,0,Secondary,Secondary,PG,2013,N/A,No,2015-16
+25010100305,SHRI KAPIL ISHWARLAL PANDYA,Male,32,General,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Mathematics,English,5,2,0,0,0,Graduate,Graduate,Secondary,2013,N/A,No,2015-16
+25010100305,SMT REENA L. SOLANKI,Female,35,OBC,Teacher,Regular,2007,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Social Studies,5,2,0,0,0,Hr.Sec,Hr.Sec,PG,2007,N/A,No,2015-16
+25010100305,SMT. KAILASH A. SOMESHWARA,Female,30,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,U.Primary Only,All Subjects,English,Language,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010100305,SMT. NEHA H. SOLANKI,Female,37,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,U.Primary Only,All Subjects,English,Hindi,5,2,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010100401,HEMANGINI JITENDRA JETHWA,Female,29,SC,Teacher,Contract,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25010100401,NARESH LAXMISHANKAR JOSHI,Male,55,Others,Acting H.Teacher,Regular,1987,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010100402,ANETTA ROSARIO,Female,53,General,Teacher,Regular,1988,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Below Sec,Secondary,2008,N/A,Yes,2015-16
+25010100402,DIPIKA DEVJI CHAUHAN,Female,37,OBC,Teacher,Regular,1999,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,Yes,2015-16
+25010100501,HEENA R JADAV,Female,31,SC,Teacher,Regular,2004,Hr. Sec,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Below Sec,2007,N/A,No,2015-16
+25010100501,J G MURABIA,Female,42,General,Teacher,Regular,1999,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2008,N/A,No,2015-16
+25020101301,DIMPAL G PATEL,Male,24,OBC,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,5,1,0,Hr.Sec,Graduate,Secondary,2014,N/A,No,2015-16
+25020101301,FALGUNIBEN C PATEL,Female,30,OBC,Teacher,Regular,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,5,1,0,Hr.Sec,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101301,RANJANBEN B PATEL,Female,40,OBC,Teacher,Contract,2007,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,5,1,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020101301,SMT  SAVITABEN A PATEL,Female,57,OBC,Head Teacher,Regular,1979,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,2,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101301,SWEETIBEN H PATEL,Female,24,OBC,Teacher,Contract,2014,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,5,1,0,Hr.Sec,Secondary,Secondary,2014,N/A,No,2015-16
+25020101301,TARUNABEN I PATEL,Female,24,OBC,Teacher,Contract,2014,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,5,1,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101303,BHAVYATA PRABHAKAR,Female,26,General,Teacher,Regular,2014,Graduate,B.El.Ed,Primary with UP,Language,English,Social Studies,0,0,0,0,0,Hr.Sec,PG,PG,2014,N/A,No,2015-16
+25020101303,MARADONA LOPES,Male,24,General,Teacher,Regular,2014,Graduate,B.El.Ed,Primary with UP,Mathematics,Mathematics,Science,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25020101303,MISS ASHWINA PATEL,Female,31,OBC,Teacher,Regular,2006,PG,B.El.Ed,U.Primary and Sec,All Subjects,Hindi,Regional Lang,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2006,N/A,No,2015-16
+25020101303,MISS TRUPTI AGRAWAL,Female,26,General,Teacher,Regular,2013,PG,B.El.Ed,Sec and Hr. Sec,Biology,Biology,Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101303,MISS YAMINI PATEL,Female,27,General,Teacher,Regular,2006,Hr. Sec,Others,Primary Only,All Subjects,Regional Lang,Env. Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2006,N/A,No,2015-16
+25020101303,MR JALLA EZAZAHEMAD IMTIAZ,Female,26,General,Teacher,Regular,2013,Graduate,B.El.Ed,U.Primary and Sec,All Subjects,English,Social Studies,0,0,0,0,0,Hr.Sec,Graduate,Graduate,2013,N/A,No,2015-16
+25020101303,MR JIGNESH TOYLA,Male,30,General,Teacher,Regular,2014,Hr. Sec,Diploma/Degree in Sp. Edu,Primary Only,Work Education,Work Education,Work Education,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101303,MR RAJESH BARIA,Male,40,General,Teacher,Regular,2014,Hr. Sec,Diploma/Degree in Sp. Edu,Primary Only,Art Education,Art Education,Art Education,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2014,N/A,No,2015-16
+25020101303,MR. NITESH CHAUNKAR,Male,41,General,Teacher,Regular,2014,Graduate,B.El.Ed,Primary Only,Mathematics,Mathematics,Science,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2014,N/A,No,2015-16
+25020101303,MR. VISHAL PATEL,Male,27,OBC,Teacher,Regular,2014,Graduate,B.El.Ed,U.Primary and Sec,Science,Mathematics,Mathematics,0,0,0,0,0,Hr.Sec,Secondary,Hr.Sec,2014,N/A,No,2015-16
+25020101303,MRS ANITA YADAV,Female,36,OBC,Teacher,Regular,2004,PG,B.El.Ed,Primary with UP,Language,Hindi,Hindi,0,0,0,0,0,Graduate,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101303,MRS BHANGYASHREE PATIL,Female,28,General,Teacher,Regular,2014,PG,None,Primary Only,Science,Science,Social Studies,0,0,0,0,0,Hr.Sec,PG,Secondary,2014,N/A,No,2015-16
+25020101303,MRS BIJAL DESAI,Female,36,General,Teacher,Regular,2007,Graduate,B.El.Ed,Primary with UP,All Subjects,Regional Lang,Language,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2007,N/A,No,2015-16
+25020101303,MRS BOSKY MODI,Female,37,General,Teacher,Regular,2003,Graduate,Diploma or Certificate,Primary Only,All Subjects,Language,Mathematics,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2007,N/A,No,2015-16
+25020101303,MRS CHERYL FERNANDES,Female,44,General,Teacher,Regular,2009,Graduate,B.El.Ed,Primary with UP,All Subjects,Music,Env. Studies,0,0,0,0,0,Secondary,Graduate,Graduate,2009,N/A,No,2015-16
+25020101303,MRS DIPTI PATEL,Female,33,OBC,Teacher,Regular,2014,PG,M.Ed,U.Primary and Sec,Language,Regional Lang,Hindi,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020101303,MRS FATIMA BHANPURAWALA,Female,38,General,Teacher,Regular,2008,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,English,Language,0,0,0,0,0,Below Sec,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25020101303,MRS HEMLATA PARDHI,Female,39,OBC,Teacher,Regular,2014,PG,B.El.Ed,Sec and Hr. Sec,Physics,Physics,Mathematics,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101303,MRS JINSA AJAI THOMAS,Female,29,General,Teacher,Regular,2013,PG,B.El.Ed,Primary with UP,Language,Language,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Post Doctoral,2013,N/A,No,2015-16
+25020101303,MRS MAMI NEOG,Female,42,OBC,Teacher,Regular,2011,Graduate,B.El.Ed,Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Graduate,Graduate,PG,2011,N/A,No,2015-16
+25020101303,MRS NEETA MAHOR,Female,35,General,Teacher,Regular,2013,Graduate,B.El.Ed,Primary with UP,Mathematics,Mathematics,Science,0,0,0,0,0,Graduate,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101303,MRS NEHAL PRAJAPATI,Female,34,OBC,Teacher,Regular,2014,PG,B.El.Ed,Primary Only,Language,Regional Lang,Hindi,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020101304,MR ABHISHEK PUROHIT,Male,27,General,Teacher,Contract,2013,Hr. Sec,B.El.Ed,U.Primary and Sec,Physics,Physics,Physics,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101304,MR AKIBKHAN MOGAL,Male,32,General,Teacher,Contract,2013,Hr. Sec,B.El.Ed,U.Primary and Sec,Biology,Biology,Biology,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101304,MR ASHOK KUMAR,Male,28,SC,Teacher,Regular,2013,Hr. Sec,B.El.Ed,U.Primary and Sec,Chemistry,Chemistry,Chemistry,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101304,SHRI ASHOKKUMAR RATILAL PATEL,Male,47,ST,Teacher,Regular,1991,Hr. Sec,Others,U.Primary and Sec,Art Education,Art Education,Art Education,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2000,N/A,No,2015-16
+25020101304,SHRI DINESHKUMAR PANDHARINATH PAGAR,Male,38,OBC,Teacher,Regular,2003,PG,B.El.Ed,U.Primary and Sec,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2006,N/A,No,2015-16
+25020101304,SHRI DURYODHAN VINAYAK JIBHKATE,Male,47,OBC,Teacher,Regular,1995,Hr. Sec,B.El.Ed,U.Primary and Sec,Mathematics,Mathematics,Mathematics,0,0,0,0,0,PG,Hr.Sec,Secondary,2002,N/A,No,2015-16
+25020101304,SHRI HARISHCHANDRA VASANT YERAGI,Male,46,General,Teacher,Regular,1993,Graduate,B.El.Ed,U.Primary and Sec,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101304,SHRI MANISH KUMAR SRIVASTAV,Male,43,General,Teacher,Regular,2003,Hr. Sec,B.El.Ed,U.Primary and Sec,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25020101304,SHRI NARAYAN BABURAO KADAM,Male,47,OBC,Teacher,Regular,1999,Hr. Sec,B.El.Ed,U.Primary and Sec,Science,Science,Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2006,N/A,No,2015-16
+25020101304,SHRI NARAYAN MANIKRAO KAMBLE,Male,52,SC,Teacher,Regular,1992,Hr. Sec,B.El.Ed,U.Primary and Sec,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2000,N/A,No,2015-16
+25020101304,SHRI PANKAJ KORE,Male,33,General,Teacher,Contract,2012,Hr. Sec,B.El.Ed,U.Primary and Sec,Mathematics,Mathematics,Mathematics,0,0,0,0,0,PG,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25020101304,SHRI VINAY KUMAR SINGH,Male,47,General,Teacher,Regular,2003,Hr. Sec,B.El.Ed,U.Primary and Sec,Geography,Geography,Geography,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101304,SMT INDIRA  ANIL SINGH,Female,52,General,Teacher,Regular,1993,Hr. Sec,B.El.Ed,U.Primary and Sec,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,1999,N/A,No,2015-16
+25020101304,SMT JYOTISHNA DWIVEDI,Female,43,General,Teacher,Regular,1995,Hr. Sec,Others,U.Primary and Sec,Others,Others,Others,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,1995,N/A,No,2015-16
+25020101304,SMT SUSHMA VASANTRAO SHUKLA ,Female,53,General,Teacher,Regular,1995,Hr. Sec,Others,U.Primary and Sec,All Subjects,Music,Music,0,0,0,0,0,Below Sec,Hr.Sec,Secondary,1995,N/A,No,2015-16
+25020101304,SMT VAISHALI B LANJEWAR,Female,37,OBC,Teacher,Contract,2012,PG,Others,U.Primary and Sec,Others,Others,Others,0,0,0,0,0,Below Sec,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25020101304,SMT. KOKILABEN PATEL,Female,44,ST,Teacher,Regular,2006,Hr. Sec,B.El.Ed,U.Primary and Sec,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25020101304,URVASHI ROHIT,Female,27,SC,Acting H.Teacher,Contract,2013,PG,Diploma or Certificate,U.Primary and Sec,Health Physical Edu,Health Physical Edu,Health Physical Edu,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020101601,JIGNA G PATEL,Female,32,OBC,Teacher,Contract,2007,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020101601,SHARDABEN M HALPATI,Female,52,ST,Head Teacher,Regular,1984,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2011,N/A,No,2015-16
+25020101601,SHRI RAMESHBHAI M PATEL,Male,57,ST,Teacher,Regular,1985,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,2,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020101601,SMT JYOTI B PATEL,Female,48,OBC,Teacher,Regular,1988,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,2,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101601,SMT KUSUM M  PATEL,Female,45,OBC,Teacher,Regular,1999,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,2,0,0,Secondary,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25020101001,BHANDARI KUMUD SUNDAR,Female,46,OBC,Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,5,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101001,MAHES DAGHI,Male,46,OBC,Acting H.Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,5,0,0,17,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020101001,PATEL ISHWAR GAJU,Male,45,OBC,Teacher,Regular,1990,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,5,0,0,18,Secondary,Below Sec,Secondary,2009,N/A,No,2015-16
+25020101401,BHIKIBEN B PATEL,Female,56,ST,Teacher,Regular,1985,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020101401,NILAMBEN C PATEL,Female,29,OBC,Teacher,Regular,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,0,0,Secondary,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101401,PADMABEN R DAMANIA,Female,36,SC,Teacher,Regular,2000,Graduate,Diploma or Certificate,Primary Only,All Subjects,Language,Science,0,4,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101401,TINKALBEN B PATEL,Female,35,OBC,Teacher,Regular,2007,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Mathematics,0,4,0,0,0,Secondary,Secondary,Secondary,2007,N/A,No,2015-16
+25010100601,SHRI DHARMESH INDUKUMAR SHETH,Male,39,General,Acting H.Teacher,Regular,1997,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2008,N/A,Yes,2015-16
+25010100601,SMT. PRIYADARSHANA JAYANTILAL CHUDASAMA,Female,35,General,Teacher,Regular,1999,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Secondary,Secondary,Secondary,2010,N/A,Yes,2015-16
+25010101801,DIVYESHKUMAR NAVINCHANDRA JETHWA,Male,35,OBC,Acting H.Teacher,Regular,1999,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,PG,2010,N/A,No,2015-16
+25010101104,JENTI KARSAN BARIYA,Male,43,OBC,Head Teacher,Regular,2006,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Graduate,Hr.Sec,2009,N/A,No,2015-16
+25010101104,NAMRATABEN RAVJIBHAI PARMAR,Female,27,SC,Teacher,Contract,2008,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Secondary,Secondary,Secondary,2009,N/A,No,2015-16
+25020100901,LATTABEN M PATEL,Female,47,ST,Head Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,4,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020100901,VINOD V PATEL,Male,36,ST,Acting H.Teacher,Contract,2007,Hr. Sec,B.El.Ed,Primary Only,Language,All Subjects,All Subjects,0,0,0,4,0,Hr.Sec,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25020101501,BHAVNA R PANDYA,Female,36,General,Teacher,Regular,2000,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101501,DAXA M PATEL,Female,47,OBC,Teacher,Regular,1990,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2001,N/A,No,2015-16
+25020101501,JIGNA K DESAI,Female,43,General,Teacher,Regular,1993,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101501,KANTI M HALPATI,Female,52,ST,Head Teacher,Regular,1985,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020101501,MANISHA K PATEL,Female,27,ST,Acting H.Teacher,Contract,2014,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020101501,RAXA M TALEKAR,Female,36,OBC,Teacher,Regular,2004,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2009,N/A,No,2015-16
+25020101501,SEEMA G PATEL,Female,31,ST,Acting H.Teacher,Contract,2014,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020101501,URMILA L PATEL,Female,48,OBC,Teacher,Regular,1994,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020101501,VIJYETA R PATEL,Female,25,ST,Acting H.Teacher,Contract,2014,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020101403,AMRAT PATEL,Male,69,OBC,Head Teacher,Regular,2008,Graduate,B.El.Ed,U.Primary Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2008,N/A,No,2015-16
+25020101403,ANINDITA CHAKRABORTY,Female,44,General,Teacher,Regular,2012,PG,Others,U.Primary Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2012,N/A,Yes,2015-16
+25020101403,BAISAKHI A SARKAR,Female,41,ST,Teacher,Regular,2013,Hr. Sec,Diploma or Certificate,U.Primary Only,Language,Language,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,Yes,2015-16
+25020101403,CHETNA HALPATI,Female,29,General,Teacher,Regular,2013,PG,Diploma or Certificate,U.Primary Only,Env Studies,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25020101403,CHHAYA N PATEL,Female,24,ST,Teacher,Regular,2013,Hr. Sec,B.El.Ed,Primary Only,All Subjects,Language,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,Yes,2015-16
+25020100501,DEEPIKA H DAMANIA,Female,40,SC,Teacher,Regular,2000,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Secondary,2009,N/A,No,2015-16
+25020100501,KAUSHALIYA H PATEL,Female,40,OBC,Teacher,Regular,2006,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Secondary,2010,N/A,No,2015-16
+25020100501,NARESH R PATEL,Male,55,ST,Teacher,Regular,1986,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Secondary,Secondary,2015,N/A,No,2015-16
+25020100501,NAVIN C DHODI,Male,40,ST,Teacher,Regular,1997,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Secondary,Secondary,2010,N/A,No,2015-16
+25010100602,HIREN YOGESHBHAI MANSETA,Male,27,General,Teacher,Contract,2011,Graduate,B.El.Ed,U.Primary Only,Home Science,Mathematics,Science,5,2,0,0,0,Hr.Sec,Graduate,Secondary,2011,N/A,Yes,2015-16
+25010100602,JYOTI GOVINDBHAI MURABIA,Female,42,General,Teacher,Regular,1999,Secondary,Diploma or Certificate,U.Primary Only,All Subjects,Language,Language,5,2,0,6,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010100602,RITA HARILAL CHAUHAN,Female,35,SC,Teacher,Regular,2006,Graduate,Diploma or Certificate,U.Primary Only,Accountancy,Language,Language,5,2,0,0,0,Secondary,Secondary,Graduate,2011,N/A,No,2015-16
+25010100902,ASHWIN MANSUKHBHAI PARMAR,Male,24,SC,Instructor,Part-Time,2012,Secondary,Others,U.Primary Only,Work Education,Work Education,Work Education,5,2,0,6,0,Secondary,Secondary,Secondary,2012,N/A,No,2015-16
+25010100902,KALPESH VASANTLAL JETHWA,Male,30,OBC,Teacher,Contract,2010,Graduate,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Science,5,2,0,0,0,Graduate,Graduate,Secondary,2010,N/A,No,2015-16
+25010100902,MEHBUB MAHMOD JIWANI,Male,54,General,Acting H.Teacher,Regular,1984,Graduate,Diploma or Certificate,U.Primary Only,All Subjects,Language,Social Studies,5,2,0,0,0,Graduate,Graduate,Secondary,2009,N/A,No,2015-16
+25010100902,SEJAL NANDKISHOR DOSHI,Female,36,General,Teacher,Contract,2007,Graduate,B.El.Ed,U.Primary Only,All Subjects,Language,Social Studies,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25010100801,PIYUSHKUMAR HIMATLAL PANDYA,Male,34,General,Teacher,Regular,2004,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,1,0,Hr.Sec,Graduate,Secondary,2013,N/A,No,2015-16
+25010100901,KOMAL BABULAL SOLANKI,Female,35,OBC,Teacher,Regular,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Hr.Sec,Hr.Sec,Hr.Sec,2007,N/A,No,2015-16
+25010100901,MAHESH NAGINDAS SHAH,Male,52,General,Teacher,Regular,1987,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2007,N/A,No,2015-16
+25010100901,NILESH RAMJI SOLANKI,Male,32,OBC,Teacher,Regular,2004,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,PG,Secondary,2015,N/A,No,2015-16
+25010100901,SMT USHABEN B SOLANKI,Female,54,OBC,Head Teacher,Regular,1980,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020102601,SMT KANKUBEN D PATEL,Female,57,General,Teacher,Regular,1982,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102601,SMT RAMILABEN DAMANIA,Female,49,General,Head Teacher,Regular,1993,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102601,SMT SMITA R HALPATI,Female,24,ST,Teacher,Contract,2014,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102602,ALKA K DESAI,Female,53,General,Head Teacher,Regular,1982,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,1,0,Secondary,Secondary,Secondary,2004,N/A,No,2015-16
+25020102602,HETAL J PATEL,Female,34,General,Teacher,Regular,2000,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,1,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25020102602,NITA M TANDEL,Female,51,General,Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,1,0,Secondary,Secondary,Secondary,2002,N/A,No,2015-16
+25010101302,HARESH MAGAN VALA,Male,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Social Studies,Social Studies,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101302,JITENDRA RAMESHCHANDRA JETHWA,Male,54,OBC,Head Teacher,Regular,1983,Graduate,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Science,5,2,0,0,0,Graduate,Graduate,Secondary,2010,N/A,No,2015-16
+25010101302,RIZWANA ADAMBASHIR MANSURI,Male,25,ST,Teacher,Contract,2013,Graduate,M.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010101302,SAHENAZ KASAMBHAI KHATRI,Female,37,OBC,Teacher,Regular,2004,Graduate,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101302,VASANBEN RAMJI JADAV,Female,31,SC,Teacher,Part-Time,2013,Graduate,Others,U.Primary Only,Art Education,Art Education,Art Education,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101302,VINODKUMAR HADMAT CHAUHAN,Male,33,OBC,Teacher,Regular,2008,PG,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Language,5,2,0,0,0,Hr.Sec,Graduate,Secondary,2007,N/A,No,2015-16
+25010101302,YATINKUMAR BHAGVANDAS JETHWA,Male,39,OBC,Teacher,Contract,2007,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Secondary,Secondary,2007,N/A,No,2015-16
+25010101001,LILAVANTI MOHAN BAMANIA,Female,25,OBC,Teacher,Contract,2013,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,1,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010101301,MIMTESH VALJI BAMANIA,Male,23,OBC,Teacher,Contract,2013,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Secondary,Secondary,Secondary,2013,N/A,Yes,2015-16
+25010101301,MOHMAD ABDULREHMAN VORA,Male,54,General,Acting H.Teacher,Regular,1983,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2005,N/A,Yes,2015-16
+25010101301,NIMU VALJI VADHER,Female,42,SC,Teacher,Regular,1999,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Secondary,2008,N/A,Yes,2015-16
+25010101301,VANITA NAZABHAI MEVADA,Female,38,SC,Teacher,Regular,1999,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Secondary,2007,N/A,Yes,2015-16
+25010101301,YATIN VASANTBHAI JETHVA,Male,31,OBC,Teacher,Contract,2008,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2009,N/A,Yes,2015-16
+25010101502,HARSHAD LALJI MAKWANA,Male,27,SC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101502,HEMLATA PUNJA SIKOTARIYA,Female,26,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,All Subjects,Science,Science,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101502,JETIN KANJI SOLANKI,Male,29,OBC,Teacher,Contract,2013,Hr. Sec,B.El.Ed,U.Primary Only,All Subjects,Science,Science,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101502,LAXMIKANT KANJIBHAI BAMANIA,Male,40,OBC,Teacher,Regular,2005,Graduate,B.El.Ed,U.Primary Only,All Subjects,Science,Science,5,2,0,0,0,Below Sec,Below Sec,Secondary,2015,N/A,No,2015-16
+25010101502,NANJI L. BAMANIA,Male,59,OBC,Head Teacher,Regular,1983,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2010,N/A,Yes,2015-16
+25010101502,NAYNA THAKOR PATEL,Female,25,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,U.Primary Only,All Subjects,Language,Language,5,2,0,6,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010101502,PRADIP KARSAN SOLANKI,Male,32,OBC,Instructor,Part-Time,2013,PG,Others,U.Primary Only,Comp. Science,Comp. Science,Comp Science,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,Yes,2015-16
+25010101502,RAMILA R. BAMANIA,Female,33,OBC,Teacher,Regular,2005,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,Language,Language,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2010,N/A,Yes,2015-16
+25010101502,SUHAS J. SOLANKI,Male,32,OBC,Teacher,Regular,2007,Graduate,B.El.Ed,U.Primary Only,All Subjects,Social Studies,Social Studies,5,2,0,0,0,Secondary,Graduate,Below Sec,2007,N/A,Yes,2015-16
+25020102604,ARTI D SOLANKI,Female,38,SC,Teacher,Regular,2001,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,3,0,5,0,Hr.Sec,Hr.Sec,Secondary,2011,N/A,No,2015-16
+25010101501,BHARTI UGABHAI UNEWAL,Female,32,SC,Teacher,Contract,2013,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101501,BHRADULA NAGARDAS VAGEHALA,Female,54,General,Teacher,Regular,1983,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25010101501,DEVJIBHAI CHINA SOLANKI,Male,59,OBC,Teacher,Regular,1984,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101501,DIPAK RAMNIKLAL SHAH,Male,57,General,Head Teacher,Regular,1981,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101501,HARESH SHANTILAL BAMANIA,Male,33,OBC,Teacher,Regular,2004,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Below Sec,Secondary,2008,N/A,No,2015-16
+25010101501,INDRAKANT ARJAN BAMANIA,Male,30,OBC,Teacher,Contract,2008,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,PG,2008,N/A,No,2015-16
+25010101501,KOTIYA PRAKASH NATHU,Male,40,General,Teacher,Regular,1999,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101501,NAVIN BHAGUBHAI PATEL,Male,32,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Graduate,Graduate,Secondary,2013,N/A,Yes,2015-16
+25010101501,RAMJI RAJA SOLANKI,Male,59,General,Teacher,Regular,1984,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101703,ASHOK NANJI VANSH,Male,29,OBC,Teacher,Contract,2013,Graduate,Diploma or Certificate,U.Primary Only,All Subjects,Language,Others,5,2,0,0,0,Secondary,Secondary,Secondary,2011,N/A,No,2015-16
+25010101703,BABU DEVA BARIYA,Male,37,OBC,Teacher,Contract,2010,PG,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Graduate,Graduate,Hr.Sec,2010,N/A,No,2015-16
+25010101703,FAIZAN SHOAIB MANSURI,Male,24,OBC,Instructor,Part-Time,2013,Graduate,Others,U.Primary Only,Others,Others,Others,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101703,KALPESH LALJI PATEL,Male,34,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,U.Primary Only,All Subjects,Others,Others,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101703,LALJI KARASAN SOLANKI,Male,38,OBC,Teacher,Contract,2007,Graduate,B.El.Ed,U.Primary Only,All Subjects,Music,All Subjects,5,2,0,0,0,Graduate,Graduate,Hr.Sec,2008,N/A,No,2015-16
+25010101703,MEGHNA RAMJI SOLANKI,Female,35,OBC,Teacher,Regular,1999,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25010101703,MRUDULA PUNJA BAMANIA,Female,36,OBC,Teacher,Regular,1999,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,Mathematics,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101703,RAHUL JIVA SOLANKI,Male,28,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Graduate,2010,N/A,No,2015-16
+25010101703,SHITAL HARIDAS BAMANIA,Female,31,OBC,Teacher,Contract,2011,PG,B.El.Ed,U.Primary Only,All Subjects,Others,Others,5,2,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2011,N/A,No,2015-16
+25010101703,SURESH BHIMJI KAPADIA,Male,43,OBC,Teacher,Regular,2004,PG,B.El.Ed,U.Primary Only,All Subjects,Social Studies,Others,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101703,VIRESH CHHAGAN BARAIYA,Male,27,OBC,Instructor,Part-Time,2013,Ph.D,Diploma/Degree in Sp. Edu,U.Primary Only,Fine Arts,Fine Arts,Fine Arts,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101701,ASHAVANTI AMRATLAL,Female,47,Others,Teacher,Regular,1988,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25010101701,BHAVYESHBHAI N. SOLANKI,Male,31,OBC,Teacher,Regular,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Hr.Sec,2008,N/A,No,2015-16
+25010101701,BINAL P. MAKWANA,Female,26,SC,Teacher,Contract,2013,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101701,CHANDRIKABEN C. VAGHELA,Female,58,Others,Teacher,Regular,1984,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Below Sec,Secondary,2008,N/A,No,2015-16
+25010101701,DHANIBEN D. BARIYA,Female,30,OBC,Teacher,Regular,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Below Sec,Hr.Sec,2007,N/A,No,2015-16
+25010101701,DINESH SOMA BARAIYA,Male,29,ST,Teacher,Contract,2008,PG,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101701,GULSANBANU MUSA VAJA,Female,50,ST,Teacher,Regular,1986,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101701,JASHMIN M. KASMANI,Female,24,OBC,Teacher,Contract,2013,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Graduate,Graduate,2013,N/A,No,2015-16
+25010101701,JEEPSY N SHAH,Female,35,General,Teacher,Regular,1999,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,Yes,2015-16
+25010101701,KRIMILABEN K. JETHWA,Female,59,Others,Teacher,Regular,1987,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101701,MAHMADRAFIK U KURESHI,Male,54,OBC,Acting H.Teacher,Regular,1982,Secondary,Diploma or Certificate,Primary Only,All Subjects,Language,Sports,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101701,MANISHABEN R. SOLANKI,Female,40,Others,Teacher,Regular,1993,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25010101701,MEGHJI HARJI BARIA,Male,57,OBC,Teacher,Regular,1987,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010101701,RASHMITA R. SOLANKI,Female,29,OBC,Teacher,Contract,2013,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101701,REKHA P. PANDYA,Female,37,General,Teacher,Contract,2008,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101701,RUPANDE B. BAMANIA,Female,23,OBC,Teacher,Contract,2013,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010101701,YAMIKA J. SOLANKI,Female,24,OBC,Teacher,Contract,2013,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101702,ANAMIKA AMRUTLAL BARAIYA,Female,36,OBC,Acting H.Teacher,Regular,1999,PG,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25010101702,BHARTI DEVA BARAIYA,Female,29,OBC,Teacher,Contract,2007,PG,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2007,N/A,No,2015-16
+25010101702,NISHABEN R. SOLANKI,Female,33,OBC,Teacher,Contract,2007,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Below Sec,Secondary,2007,N/A,No,2015-16
+25010101702,PRANLAL LAXMAN SOLANKI,Male,35,OBC,Teacher,Contract,2008,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,6,0,Hr.Sec,Hr.Sec,Hr.Sec,2008,N/A,No,2015-16
+25010101702,VISHVESH BABU BAMANIA,Male,35,OBC,Teacher,Contract,2008,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2008,N/A,No,2015-16
+25020102607,ARUNA C PATEL,Female,54,OBC,Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,4,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102607,CHHAYABEN L PATEL,Female,43,OBC,Teacher,Regular,1990,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,6,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020102607,DILSHAD G MITHANI,Female,57,General,Head Teacher,Regular,1979,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2008,N/A,No,2015-16
+25020102607,MANISHABEN RAMJI,Female,38,OBC,Teacher,Regular,1997,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,4,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102607,MANJU B TANDEL,Female,55,OBC,Teacher,Regular,1988,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,0,0,Secondary,Secondary,Secondary,2009,N/A,No,2015-16
+25020102607,VARSHABEN R DESAI,Female,58,General,Teacher,Regular,1983,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,4,0,0,1,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020102609,APEKSHA G VANKVALA,Female,35,General,Teacher,Regular,2004,Graduate,B.El.Ed,Primary Only,All Subjects,Science,Mathematics,0,0,0,0,0,Secondary,Secondary,Secondary,2004,N/A,No,2015-16
+25020102609,BHANUMATI R TANDEL,Female,48,General,Teacher,Regular,2004,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Secondary,2004,N/A,No,2015-16
+25020102609,BINALKUMAR C PATEL,Female,31,General,Instructor,Regular,2007,Graduate,Others,U.Primary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2007,N/A,No,2015-16
+25020102609,CHAITAKIBEN J KABEEREEYA,Female,29,Others,Teacher,Regular,2010,Hr. Sec,Others,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2010,N/A,No,2015-16
+25020102609,DEVANGIKABAHEN R BARIA,Female,34,OBC,Teacher,Regular,2007,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2007,N/A,No,2015-16
+25020102610,A K OZA,Male,34,General,Teacher,Regular,2006,Graduate,B.El.Ed,Primary with UP,All Subjects,Mathematics,Science,0,0,0,0,0,Graduate,Graduate,Secondary,2006,N/A,No,2015-16
+25010101704,AMIT DEVJI SIKOTARIYA,Male,33,OBC,Instructor,Part-Time,2013,PG,Others,U.Primary Only,Music,Music,Home Science,5,2,0,0,0,Secondary,Secondary,Secondary,2013,Visual,No,2015-16
+25020100802,KUM CHETNA S PATEL,Female,30,OBC,Teacher,Contract,2014,PG,B.El.Ed,U.Primary Only,All Subjects,Mathematics,English,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2014,N/A,No,2015-16
+25020100802,KUM DHARMISTA D PATEL,Female,30,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Secondary,Secondary,2014,N/A,No,2015-16
+25020100802,PRAMOD G PATEL,Male,29,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Below Sec,Secondary,Secondary,2014,N/A,No,2015-16
+25020100802,SHRI C G PATEL,Male,32,ST,Teacher,Part-Time,2013,Hr. Sec,B.El.Ed,U.Primary Only,Music,Music,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25020102611,ANITA KULTHE ,Female,39,General,Teacher,Regular,2009,Graduate,B.El.Ed,Primary with UP,All Subjects,Science,Health Physical Edu,0,0,0,0,0,Graduate,Secondary,Below Sec,2009,N/A,No,2015-16
+25020102305,BHANDARI DARSHANA,Female,30,OBC,Teacher,Regular,2007,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2007,N/A,Yes,2015-16
+25020102305,CHAUDRI NISHA,Female,31,OBC,Teacher,Regular,2010,PG,B.El.Ed,Primary with UP,All Subjects,Social Studies,Env. Studies,0,0,0,0,0,Secondary,Secondary,Ph.D,2010,N/A,Yes,2015-16
+25020102305,GULATI ALKA,Female,38,OBC,Teacher,Regular,2007,Graduate,B.El.Ed,Primary with UP,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2007,N/A,Yes,2015-16
+25020102305,KUM VAISHALI PATLE,Female,30,OBC,Teacher,Regular,2012,M. Phil,B.El.Ed,Primary with UP,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Hr.Sec,Below Sec,2012,N/A,Yes,2015-16
+25020100902,ANKITABEN K PATEL,Female,25,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,8,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25020100902,SUJIT R PATEL,Male,32,OBC,Teacher,Regular,2004,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,8,0,0,Hr.Sec,Below Sec,Secondary,2011,N/A,No,2015-16
+25020100902,TULSIDAS T RAUT,Male,53,OBC,Acting H.Teacher,Regular,1983,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,8,0,0,Secondary,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25010101101,JAGDISHKUMAR HIMATLAL RUPARELIA,Male,54,General,Head Teacher,Regular,1979,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2009,N/A,No,2015-16
+25010101101,JENTILAL TARACHAND SOLANKI,Male,57,General,Teacher,Regular,1987,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2011,N/A,No,2015-16
+25010101101,NILKAMAL SHANTILAL BHATT,Male,54,General,Teacher,Regular,1987,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2009,N/A,No,2015-16
+25010101101,PRAVIN LAXMAN ZALA,Male,45,General,Teacher,Regular,2000,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2012,N/A,No,2015-16
+25010101101,VARSHA MANSUKHBHAI SOLANKI,Female,40,General,Teacher,Regular,1999,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Below Sec,Below Sec,Below Sec,2012,N/A,No,2015-16
+25010101101,YOGESH BHIKHA SOLANKI,Male,36,OBC,Teacher,Contract,2007,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Social Studies,5,2,0,6,0,Hr.Sec,Secondary,Secondary,2007,N/A,No,2015-16
+25010100407,ALKA DATTARAM,Female,29,OBC,Teacher,Regular,2015,Secondary,Diploma or Certificate,Primary Only,All Subjects,Science,Mathematics,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010100407,AROCKIAM THOMAS,Male,46,General,Teacher,Regular,1997,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,Hr.Sec,Secondary,Graduate,1997,N/A,No,2015-16
+25010100407,BHARTI JITENDRA KAPADIA,Female,39,OBC,Teacher,Contract,2014,Graduate,None,Primary Only,Language,Hindi,Hindi,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010100407,CHRISTINA GOMES,Female,53,General,Teacher,Regular,1998,Graduate,B.El.Ed,Secondary Only,Language,Language,Social Studies,0,0,0,0,0,Secondary,Secondary,Graduate,1998,N/A,No,2015-16
+25010100407,FR. RAMDAS GAVIT,Male,40,General,Head Teacher,Regular,2013,Graduate,B.El.Ed,Secondary Only,Social Studies,Language,Social Studies,0,0,0,0,0,Secondary,Graduate,Graduate,2013,N/A,No,2015-16
+25010100407,HARSHA KAHANGIRI GOSWAMI,Female,47,OBC,Teacher,Regular,2003,PG,B.El.Ed,Primary Only,Language,Others,Others,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2003,N/A,No,2015-16
+25010100407,HASMUKH HIRALAL JETHWA,Male,29,SC,Teacher,Contract,2014,Graduate,Diploma or Certificate,U.Primary Only,Accountancy,Mathematics,Env. Studies,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2014,N/A,No,2015-16
+25010100407,HIRAL RAMNIKLAL HARIYANI,Female,25,OBC,Teacher,Regular,2011,Graduate,None,Primary Only,All Subjects,Language,Social Studies,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2011,N/A,No,2015-16
+25010100407,INDUBAI MOHAN BAMANIA,Female,44,OBC,Teacher,Regular,1993,Graduate,None,Primary Only,Mathematics,Science,Science,0,0,0,0,0,Graduate,Graduate,Secondary,1993,N/A,No,2015-16
+25010100407,JAGRUTI JITENDRA BARAIYA,Female,25,OBC,Teacher,Contract,2012,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,Mathematics,Social Studies,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2012,N/A,No,2015-16
+25010100407,JAYESH KARSHAN SOLANKI,Male,28,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,U.Primary Only,Env Studies,Env. Studies,Env. Studies,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25010100407,JYOTI HIRACHAND PATEL,Female,43,OBC,Teacher,Regular,1991,Secondary,None,Primary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,1991,N/A,No,2015-16
+25010100407,KANTILAL HARDAS VALA,Male,44,OBC,Teacher,Regular,1999,PG,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,PG,Graduate,Hr.Sec,1999,N/A,No,2015-16
+25010100407,KETAN SANATBHAI PANDIYA,Male,40,General,Teacher,Part-Time,1999,PG,B.El.Ed,Primary Only,Social Studies,Language,Language,0,0,0,0,0,Hr.Sec,Graduate,Secondary,1999,N/A,No,2015-16
+25010100407,KINJAL KAUSHIK VYAS,Female,21,General,Teacher,Contract,2015,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,Science,Mathematics,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2015,N/A,No,2015-16
+25010100407,KUSUMBALA RAMJI CHAUHAN,Female,45,OBC,Teacher,Regular,2000,PG,B.El.Ed,U.Primary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,Graduate,2000,N/A,No,2015-16
+25010100407,M. V. SEBASTIAN,Male,58,General,Acting H.Teacher,Regular,1979,Graduate,B.El.Ed,Secondary Only,Language,Social Studies,Language,0,0,0,0,0,Secondary,Secondary,Graduate,1979,N/A,No,2015-16
+25010100407,MANISHA PREMJI,Female,33,OBC,Teacher,Regular,2011,Graduate,None,Primary Only,Language,Others,Others,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2011,N/A,No,2015-16
+25010100407,MARLINA ROSARIO,Female,28,General,Teacher,Regular,2012,Graduate,None,Primary Only,All Subjects,Language,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010100407,MARY ALMEIDA,Female,43,General,Teacher,Regular,1998,Graduate,None,Primary Only,Language,Science,Science,0,0,0,0,0,Graduate,Graduate,Graduate,1998,N/A,No,2015-16
+25010100407,MARYKUTTY T. C.,Female,57,General,Acting H.Teacher,Regular,1992,Graduate,None,Primary Only,Mathematics,Mathematics,Mathematics,0,0,0,0,0,Secondary,Secondary,Secondary,1981,N/A,No,2015-16
+25010100407,NEHA HIMATBHAI DESAI,Female,31,General,Teacher,Contract,2011,PG,B.El.Ed,Primary Only,Language,Language,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Graduate,2013,N/A,No,2015-16
+25010100704,BAMANIA BINAKUMARI RAMJI,Female,39,Others,Teacher,Regular,2009,Graduate,None,Primary Only,All Subjects,Language,Fine Arts,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2009,N/A,No,2015-16
+25010100704,CHUDASAMA YASHSHVINI PRAKASHBHAI,Female,22,OBC,Teacher,Regular,2012,Hr. Sec,Diploma or Certificate,Primary Only,Accountancy,Science,Comp Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,Yes,2015-16
+25010100704,FULBARIYA KOMAL GOVIND,Female,25,OBC,Teacher,Regular,2012,PG,M.Ed,U.Primary Only,All Subjects,Language,Health Physical Edu,0,0,0,0,0,Secondary,Secondary,Secondary,2012,N/A,Yes,2015-16
+25010100704,MAYANKABEN ASHOK CHAUHAN,Female,20,OBC,Teacher,Regular,2015,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,Social Studies,Comp Science,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2015,N/A,Yes,2015-16
+25010100704,SOLANKI POONAM JIVRAJ,Female,28,OBC,Teacher,Regular,2014,PG,M.Ed,Primary Only,All Subjects,Social Studies,Env. Studies,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,Yes,2015-16
+25020102304,ANSOYA CHAUHAN,Female,39,OBC,Teacher,Regular,2011,Hr. Sec,Diploma/Degree in Sp. Edu,Primary Only,All Subjects,All Subjects,Sports,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2011,N/A,Yes,2015-16
+25020102304,BHANDARI RAKESH KUMAR N,Male,32,OBC,Teacher,Regular,2012,Graduate,B.El.Ed,U.Primary Only,Mathematics,Language,Mathematics,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2012,N/A,Yes,2015-16
+25020102304,HALPATI RITA K,Female,24,ST,Teacher,Regular,2013,Graduate,B.El.Ed,Primary with UP,Language,Language,Mathematics,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2013,N/A,Yes,2015-16
+25020102304,JHARNA SHIT,Female,32,General,Teacher,Regular,2012,Hr. Sec,Diploma/Degree in Sp. Edu,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2012,N/A,Yes,2015-16
+25020102304,JIGISHA B PATEL,Female,33,General,Teacher,Regular,2011,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2011,N/A,Yes,2015-16
+25020102304,MAHAYAVANSHI TINKAL,Female,23,SC,Teacher,Regular,2012,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2012,N/A,Yes,2015-16
+25020102304,MR SAMEL DURGESH,Male,35,Others,Head Teacher,Regular,2013,PG,B.El.Ed,Primary with UP,Language,Language,Social Studies,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2013,N/A,Yes,2015-16
+25020102613,GAYATHRI SINGH,Female,31,General,Teacher,Contract,2014,PG,B.El.Ed,U.Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Secondary,Below Sec,2014,N/A,No,2015-16
+25020100603,KUM BHUMIKA AMRUTLAL PATEL,Female,22,OBC,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,Language,Hindi,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25020100603,SMT DIPIKABEN MAGANLAL PATEL,Female,25,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,Social Studies,0,4,0,5,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25020100603,SMT HEMAXI GULABBHAI PATEL,Female,29,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,Primary Only,All Subjects,English,Language,0,4,0,5,0,Hr.Sec,PG,Secondary,2014,N/A,Yes,2015-16
+25020100603,SMT KAVITA UDAYKUMAR,Female,34,SC,Teacher,Contract,2008,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Language,0,4,0,0,0,Secondary,Graduate,Secondary,2010,N/A,No,2015-16
+25020100603,SMT SMITA UDAYKUMAR ,Female,47,SC,Acting H.Teacher,Regular,1990,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,4,0,0,0,Hr.Sec,Hr.Sec,Secondary,2010,N/A,No,2015-16
+25020101602,DIMPALKUMARI RAMUBHAI PATEL,Female,41,OBC,Acting H.Teacher,Regular,2007,PG,B.El.Ed,Primary Only,Mathematics,All Subjects,Mathematics,5,0,0,0,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25020101602,MAYURI N PATEL,Female,28,OBC,Teacher,Contract,2014,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2014,N/A,No,2015-16
+25020101602,SHRI ARVINDBHAI CHHAGANLAL SUMRA,Male,38,SC,Teacher,Regular,2005,PG,B.El.Ed,Primary Only,Mathematics,All Subjects,All Subjects,5,0,0,0,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25020101602,SHRI MANISH RAMANBHAI PATEL,Male,30,SC,Teacher,Contract,2014,PG,B.El.Ed,Primary Only,Language,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25020101602,SMR HIRAL KEVIN,Female,27,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2015,N/A,No,2015-16
+25020101602,SMT NITABEN HANSRAJ PATEL,Female,33,SC,Teacher,Contract,2014,PG,B.El.Ed,Primary Only,Language,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25020101602,SMT TWINKLEBEN R PATEL,Female,27,OBC,Teacher,Contract,2014,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25010101105,ANIL KUMAR,Male,36,General,Teacher,Regular,2014,PG,B.El.Ed,Secondary Only,Economics,Economics,Economics,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25010101105,BHIMRAO KHANDOJI SIRSATH,Male,57,SC,Vice-Principal,Regular,2014,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010101105,CHINMAY MISHRA,Male,26,SC,Teacher,Regular,2011,PG,B.El.Ed,U.Primary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2011,N/A,No,2015-16
+25010101105,DAYARAM KULHERI,Male,31,SC,Teacher,Regular,2011,PG,B.El.Ed,U.Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,PG,Hr.Sec,Secondary,2011,N/A,No,2015-16
+25010101105,DINESH KUMAR,Male,32,ST,Teacher,Regular,2010,PG,B.El.Ed,U.Primary Only,All Subjects,Social Studies,Social Studies,0,0,0,0,0,Secondary,Graduate,PG,2010,N/A,No,2015-16
+25010101105,GHANSHYAMGIRI GOSAI,Male,40,General,Teacher,Regular,2013,PG,B.El.Ed,U.Primary Only,Accountancy,Accountancy,Accountancy,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010101105,JAYANTILAL KANTIYA,Male,35,SC,Teacher,Regular,2008,Graduate,B.El.Ed,U.Primary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2011,N/A,No,2015-16
+25010101105,KAMALAKAR DEVIDAS DHOPE,Male,41,SC,Teacher,Regular,1998,PG,B.El.Ed,Secondary Only,Physics,Physics,Physics,0,0,0,0,0,Hr.Sec,Hr.Sec,PG,2015,N/A,No,2015-16
+25010101105,KIRAN KASHINATH BALKAWDE,Male,24,SC,Vice-Principal,Contract,2013,Ph.D,B.El.Ed,U.Primary Only,Art Education,Art Education,Art Education,0,0,0,0,0,Secondary,Graduate,PG,2013,N/A,No,2015-16
+25010101105,NILESH GONDALIYA,Male,37,General,Teacher,Regular,2013,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2013,Visual,No,2015-16
+25010101105,NIRBHARA SRIVASTAVA,Female,29,General,Teacher,Regular,2009,PG,B.El.Ed,U.Primary Only,Language,Language,Language,0,0,0,0,0,Secondary,Graduate,PG,2009,N/A,No,2015-16
+25010101105,RAJESH KUMAR SAH,Male,34,OBC,Teacher,Regular,2009,PG,B.El.Ed,Secondary Only,History,History,Social Studies,0,0,0,0,0,Hr.Sec,Secondary,Hr.Sec,2009,N/A,No,2015-16
+25010101105,RAJESH SONI,Male,34,OBC,Teacher,Regular,2013,PG,B.El.Ed,Secondary Only,Geography,Geography,Geography,0,0,0,0,0,Hr.Sec,Secondary,Secondary,2013,N/A,No,2015-16
+25010101710,BAMANIA BHARTI BHAGWAN,Female,28,OBC,Teacher,Regular,2010,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,PG,2010,N/A,No,2015-16
+25010101710,BAMANIA NAMRATA NULDEV,Female,28,OBC,Teacher,Regular,2010,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Below Sec,Hr.Sec,2010,N/A,No,2015-16
+25010101710,BAMANIA POORVIKA MEGHJI,Female,23,OBC,Teacher,Regular,2013,Hr. Sec,Others,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010101710,BAMANIA YOGESHWARI MEGHJIBHAI,Female,28,OBC,Teacher,Regular,2009,PG,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2009,N/A,No,2015-16
+25010101710,BARAIYA BHAVIKA BHAGWAN,Female,31,OBC,Teacher,Regular,2015,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010101707,KUM BHAVITA GULABBHAI PATEL,Female,25,OBC,Teacher,Contract,2013,PG,B.El.Ed,Primary Only,All Subjects,Env. Studies,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101707,SHRI BHAVYESH VIRABHAI SIKOTARIYA,Male,26,OBC,Teacher,Contract,2013,Graduate,Diploma or Certificate,Primary Only,All Subjects,Env. Studies,All Subjects,5,2,0,6,0,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101707,SHRI ISAC PEDRO RODRIGUES,Male,55,General,Teacher,Regular,2009,Secondary,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,5,2,0,0,0,Secondary,Secondary,Secondary,2009,N/A,No,2015-16
+25010101709,AARTI KISHOR CHAUHAN,Female,19,OBC,Teacher,Contract,2015,Graduate,None,Primary Only,All Subjects,All Subjects,Music,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010101709,ARTI KAHANGIRI GOSWAMI,Female,40,OBC,Teacher,Regular,2010,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Mathematics,0,0,0,0,0,Hr.Sec,Graduate,Hr.Sec,2010,N/A,No,2015-16
+25010101709,BHUMIKA CHUNILAL KAMALIA,Female,24,OBC,Teacher,Contract,2011,Hr. Sec,Others,Primary Only,All Subjects,Language,Others,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2011,N/A,No,2015-16
+25010101709,DHROOVI SHAILESH BOSMIYA,Female,18,Others,Teacher,Contract,2015,Secondary,Others,Primary Only,All Subjects,All Subjects,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010101709,HASMITA KANJI BAMANIA,Female,23,OBC,Teacher,Contract,2014,Hr. Sec,Others,Primary Only,All Subjects,Mathematics,Language,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010101709,MAHENDRA LAXMAN SOLANKI,Male,36,SC,Teacher,Regular,2006,Graduate,B.El.Ed,Primary Only,All Subjects,Social Studies,Science,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2006,N/A,No,2015-16
+25010101709,MANISH HIRACHAND JADAV,Male,30,SC,Teacher,Regular,2011,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Others,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2011,N/A,No,2015-16
+25010101709,POOJA DHIRAJLAL,Female,17,OBC,Teacher,Contract,2015,Secondary,Others,Primary Only,All Subjects,Mathematics,Music,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010101709,USHA KANJI BAMANIA,Female,24,OBC,Teacher,Contract,2013,Graduate,None,Primary Only,All Subjects,Mathematics,Env. Studies,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010101709,VARSHA VIRJI FULBARAI,Female,30,OBC,Teacher,Regular,2009,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Others,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2009,N/A,No,2015-16
+25020100202,ANJU SHET,Female,33,General,Teacher,Regular,2013,Hr. Sec,None,Primary Only,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25020100202,BHAVINI TANDEL,Female,24,General,Teacher,Regular,2014,Graduate,B.El.Ed,Primary Only,All Subjects,Language,Env. Studies,0,0,0,0,0,Hr.Sec,Graduate,Graduate,2014,N/A,No,2015-16
+25020100202,BHAWNA VATS,Female,29,General,Teacher,Regular,2015,Graduate,Others,Primary Only,All Subjects,Social Studies,Others,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25020100202,DIMPAL PATEL,Female,21,General,Teacher,Regular,2015,Hr. Sec,B.El.Ed,Primary Only,All Subjects,Mathematics,Env. Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,No,2015-16
+25020102801,ANNAMA STEPHAN,Female,29,General,Teacher,Regular,2015,Graduate,M.Ed,Primary with UP,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Graduate,Hr.Sec,2015,N/A,No,2015-16
+25020102801,BEENA THOMAS,Female,48,OBC,Teacher,Regular,2011,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2011,N/A,No,2015-16
+25020102801,KAVITA GANESH,Female,31,General,Teacher,Regular,2014,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020102801,KHAN TAUHID,Female,22,General,Teacher,Regular,2014,Hr. Sec,None,Primary Only,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25020102801,SHAIKH FAFTIMABIBI A,Female,49,General,Teacher,Regular,2014,Hr. Sec,None,Primary Only,All Subjects,All Subjects,Hindi,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25020102614,ANINDITA CHAKRABORTY,Female,44,General,Teacher,Regular,2009,PG,Diploma or Certificate,Primary Only,Language,English,English,0,0,0,0,0,Hr.Sec,Graduate,Graduate,2015,N/A,No,2015-16
+25020102614,GEETHA SUDHAVA RAO,Female,37,General,Teacher,Regular,2014,PG,Others,Primary Only,English,English,English,0,0,0,0,0,Graduate,Graduate,Below Sec,2014,N/A,No,2015-16
+25020102614,NEHA ALPESH LAD,Female,31,ST,Teacher,Regular,2014,PG,B.El.Ed,Primary Only,Env Studies,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2014,N/A,No,2015-16
+25020102614,SEJAL RAVI VAVIA,Female,33,SC,Teacher,Regular,2014,Graduate,Others,Primary Only,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Graduate,Graduate,Secondary,2014,N/A,No,2015-16
+25010100313,HARSHITA DEVJI FULBARIYA,Female,27,OBC,Teacher,Regular,2005,Hr. Sec,None,Primary Only,All Subjects,Mathematics,Hindi,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010100313,JIGNISHA J. BARAIYA,Female,33,OBC,Teacher,Regular,2004,Hr. Sec,None,Primary Only,All Subjects,Language,Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2004,N/A,No,2015-16
+25010100313,MELINA COLIMAO,Female,35,General,Teacher,Regular,2007,Hr. Sec,None,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010100313,PRATIKSHA R. BAMANIA,Female,27,OBC,Acting H.Teacher,Regular,2006,Hr. Sec,None,Primary Only,All Subjects,Mathematics,Science,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2005,N/A,No,2015-16
+25010100313,ROBANA MAJIDKHAN,Female,29,General,Teacher,Regular,2005,Graduate,None,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2013,N/A,No,2015-16
+25010100604,ABC,Male,36,General,Teacher,Contract,2015,Secondary,B.El.Ed,Secondary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Secondary,Secondary,2015,N/A,No,2015-16
+25010100604,ANITA BARIA,Male,30,General,Teacher,Regular,2015,Secondary,B.El.Ed,Secondary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010100604,ANUP BOLDHAN,Male,25,General,Teacher,Regular,2012,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Mathematics,0,0,0,0,0,Graduate,Graduate,Secondary,2014,N/A,No,2015-16
+25010100604,ARCHANA MAKWANA,Female,29,SC,Teacher,Regular,2009,Graduate,Diploma or Certificate,Primary Only,All Subjects,Language,Language,0,0,0,0,0,Hr.Sec,Graduate,Secondary,2009,N/A,No,2015-16
+25010100604,BHAVNA SINGH,Female,38,OBC,Teacher,Regular,2007,PG,Others,Primary Only,Others,Others,Others,0,0,0,0,0,Secondary,PG,Graduate,2013,N/A,No,2015-16
+25010100604,DARSHANA WAGH,Male,50,General,Teacher,Contract,2015,Secondary,B.El.Ed,Secondary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010100604,DIVYAKANT D,Male,30,SC,Teacher,Regular,2009,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2012,N/A,No,2015-16
+25010100604,ISHWAR SINGH,Male,33,ST,Principal,Regular,2015,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Secondary,2015,N/A,No,2015-16
+25010100604,JITENDRA BHATI,Male,45,OBC,Teacher,Regular,1998,Graduate,Others,U.Primary Only,Music,Music,Music,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2014,N/A,No,2015-16
+25010100604,KANCHAN G.,Female,31,OBC,Teacher,Regular,2009,Graduate,Diploma or Certificate,Primary Only,All Subjects,Language,Env. Studies,0,0,0,0,0,Hr.Sec,Below Sec,Secondary,2012,N/A,No,2015-16
+25010100604,KIRAN BARIA,Male,28,ST,Teacher,Regular,2007,Graduate,Diploma or Certificate,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2011,N/A,No,2015-16
+25010100604,MAHESH PUROHIT,Male,31,General,Teacher,Part-Time,2009,PG,Diploma or Certificate,Primary Only,All Subjects,Language,Mathematics,0,0,0,0,0,Secondary,Graduate,Secondary,2014,N/A,No,2015-16
+25010100604,MANISH WAGH,Male,35,General,Teacher,Regular,2012,PG,B.El.Ed,Secondary Only,Health Physical Edu,Health Physical Edu,Health Physical Edu,0,0,0,0,0,PG,Graduate,Hr.Sec,2014,N/A,No,2015-16
+25010100604,MANOJ VERMA,Male,33,SC,Teacher,Regular,2011,PG,B.El.Ed,Secondary Only,Social Studies,Social Studies,Social Studies,0,0,0,0,0,Secondary,Graduate,PG,2014,N/A,No,2015-16
+25010100604,Md. SHAKEEL,Male,32,OBC,Teacher,Regular,2010,PG,None,Secondary Only,Fine Arts,Eng. Drawing,Fine Arts,0,0,0,0,0,Secondary,Secondary,Secondary,2014,N/A,No,2015-16
+25010100604,XYZ,Male,34,General,Teacher,Contract,2015,Secondary,B.El.Ed,Secondary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Secondary,Secondary,Secondary,2015,N/A,No,2015-16
+25010100604,YUSUF MANSURI,Male,47,OBC,Teacher,Regular,1995,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2014,N/A,No,2015-16
+25010101002,HASMUKH RAM CHUNDARIA,Male,56,OBC,Acting H.Teacher,Regular,1987,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,Science,Science,5,2,0,1,4,Secondary,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101002,HEMAL JERAJ CHAUHAN,Male,35,OBC,Teacher,Contract,2007,PG,Diploma or Certificate,U.Primary Only,All Subjects,Social Studies,Language,5,2,0,0,5,Secondary,Secondary,Secondary,2013,N/A,No,2015-16
+25010101002,LAVKUSH BRIJMOHAN SHARMA,Male,31,General,Teacher,Regular,2004,Hr. Sec,Diploma or Certificate,U.Primary Only,All Subjects,Language,Language,5,2,0,1,7,Secondary,Hr.Sec,Secondary,2008,N/A,No,2015-16
+25010101002,MARUTI JADAV ANJANI,Female,30,OBC,Instructor,Part-Time,2013,Graduate,Others,U.Primary Only,Art Education,Art Education,Art Education,5,2,0,0,0,Secondary,Hr.Sec,Secondary,2013,N/A,No,2015-16
+25010101002,NITIKSHABEN RAMESHBHAI PATEL,Female,26,OBC,Teacher,Contract,2013,Graduate,Diploma or Certificate,U.Primary Only,All Subjects,Mathematics,Mathematics,5,2,0,6,0,Secondary,Graduate,Graduate,2013,N/A,Yes,2015-16
+25010101002,SUNILKUMAR JAYANTILAL SOLANKI,Male,31,OBC,Teacher,Contract,2013,PG,B.El.Ed,U.Primary Only,Language,Language,Science,5,2,0,0,0,Secondary,Secondary,Graduate,2013,N/A,No,2015-16
+25010100409,ARCHANA BABU BAMANIA,Female,25,OBC,Teacher,Regular,2015,Hr. Sec,Diploma or Certificate,Primary Only,All Subjects,Others,Mathematics,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2015,N/A,No,2015-16
+25010100409,BHAVINI PRAVIN CHAUHAN,Female,22,OBC,Teacher,Regular,2012,Hr. Sec,None,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2012,N/A,No,2015-16
+25010100409,HIRAL RAMESH KAPADIA,Female,21,OBC,Teacher,Regular,2014,Hr. Sec,None,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Secondary,2014,N/A,No,2015-16
+25010100409,JAYENDRAKUMAR NAGARDAS DHRUV,Male,67,General,Head Teacher,Regular,2008,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Hr.Sec,Below Sec,2008,N/A,No,2015-16
+25010100409,KALPANA LALJI SOLANKI,Female,29,OBC,Teacher,Regular,2012,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,All Subjects,0,0,0,0,0,Below Sec,Below Sec,Secondary,2012,N/A,No,2015-16
+25010100409,PALLAVI  ARVIND,Female,25,OBC,Teacher,Regular,2013,Hr. Sec,None,Primary Only,All Subjects,All Subjects,Language,0,0,0,0,0,Below Sec,Below Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100409,URVASHI JAYSINGH BAMANIA,Female,19,OBC,Teacher,Regular,2015,Hr. Sec,None,Primary Only,All Subjects,Others,Language,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2015,N/A,No,2015-16
+25020101503,Bhupendra C. Patel,Male,50,General,Teacher,Regular,1990,Graduate,B.El.Ed,Secondary Only,Mathematics,Mathematics,Science,0,0,0,0,0,Hr.Sec,Secondary,Ph.D,2008,N/A,Yes,2015-16
+25020101503,Gnyaneshwari D. Patel,Female,31,OBC,Teacher,Contract,2009,PG,B.El.Ed,Hr.Sec Only,Accountancy,Accountancy,Economics,0,0,0,0,0,Secondary,Secondary,Secondary,2009,N/A,Yes,2015-16
+25020101705,A. B. Patel,Male,42,OBC,Teacher,Regular,2013,PG,B.El.Ed,Sec and Hr. Sec,Accountancy,Economics,Social Studies,0,0,0,0,0,Hr.Sec,Hr.Sec,Hr.Sec,2013,N/A,Yes,2015-16
+25020102105,Balvant K. Patel,Male,58,OBC,Teacher,Regular,1983,PG,B.El.Ed,Secondary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2008,N/A,Yes,2015-16
+25020102105,BhadreshKumar M. Patel,Male,35,OBC,Teacher,Contract,2007,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,PG,Hr.Sec,2007,N/A,No,2015-16
+25020102105,Bhanumati G. Dhonde,Female,60,Others,Teacher,Regular,1983,Graduate,B.El.Ed,Secondary Only,All Subjects,Language,Language,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2008,N/A,Yes,2015-16
+25010101711,DAXABEN AKKUBHAI PATEL,Female,30,OBC,Teacher,Contract,2013,Graduate,B.El.Ed,Primary Only,All Subjects,All Subjects,Others,5,2,0,0,0,Secondary,Graduate,Hr.Sec,2013,N/A,No,2015-16
+25010100410,ANIL J. JETHWA,Male,43,SC,Teacher,Contract,2004,Graduate,B.El.Ed,Secondary Only,Fine Arts,Fine Arts,Fine Arts,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100410,ANILKUMAR AMRATLAL SOLANKI,Male,57,OBC,Head Teacher,Regular,2009,PG,B.El.Ed,Secondary Only,Language,Others,Language,0,0,0,0,0,Secondary,PG,Hr.Sec,2009,N/A,No,2015-16
+25010100410,ARVINDKUMAR PREMJI SOLANKI,Male,48,OBC,Teacher,Regular,1992,PG,B.El.Ed,Secondary Only,Mathematics,Mathematics,Mathematics,0,0,0,0,0,Graduate,Graduate,PG,2012,N/A,No,2015-16
+25010100411,DR. JITENDRA RAMJI KAPADIA,Male,44,OBC,Teacher,Regular,2012,M. Phil,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010100411,RAJESHKUMAR SINGH,Male,45,OBC,Acting H.Teacher,Regular,2007,PG,B.El.Ed,Hr.Sec Only,Biology,Biology,Biology,0,0,0,0,0,Graduate,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25010100411,SHRI AGNELO GOMES DMELLO,Male,52,Others,Teacher,Regular,2012,PG,B.El.Ed,Secondary Only,Language,Language,Others,0,0,0,0,0,Secondary,PG,Hr.Sec,2012,N/A,No,2015-16
+25010100411,SHRI BHARATKUMAR AMRATBHAI DHODI,Male,26,ST,Teacher,Contract,2013,PG,B.El.Ed,Hr.Sec Only,Accountancy,Accountancy,Economics,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SHRI DELFIANTONY DIEGO GOMES,Male,53,Others,Teacher,Regular,2010,Graduate,B.El.Ed,Hr.Sec Only,Health Physical Edu,Health Physical Edu,Business Studies,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2010,N/A,No,2015-16
+25010100411,SHRI DHARMENDRA BARIA,Male,46,OBC,Teacher,Regular,2011,PG,B.El.Ed,Secondary Only,Economics,Economics,Others,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SHRI DIVYESH PREMJIT BARIA,Male,36,OBC,Teacher,Regular,2008,Graduate,Diploma/Degree in Sp. Edu,Secondary Only,Fine Arts,Fine Arts,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2011,N/A,No,2015-16
+25010100411,SHRI HEMAL RATILAL SOLANKI,Male,30,OBC,Teacher,Contract,2012,PG,B.El.Ed,Hr.Sec Only,Mathematics,Mathematics,Mathematics,0,0,0,0,0,PG,Graduate,Secondary,2014,N/A,No,2015-16
+25010100411,SHRI JAMNADAS NATHU GHEDIA,Male,54,OBC,Teacher,Regular,1983,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2003,N/A,No,2015-16
+25010100411,SHRI JIGNESHKUMAR BHIMJI BAMANIA,Male,29,OBC,Teacher,Contract,2013,PG,B.El.Ed,Hr.Sec Only,Biology,Biology,Biology,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SHRI KIRTAN VIRCHAND BARIA,Male,30,OBC,Teacher,Contract,2013,PG,B.El.Ed,Hr.Sec Only,Mathematics,Mathematics,Science,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SHRI KRINAL FULCHAND BARIA,Male,27,OBC,Teacher,Contract,2013,PG,None,Hr.Sec Only,Comp. Science,Comp. Science,Comp Science,0,0,0,0,0,Hr.Sec,PG,Secondary,2013,N/A,No,2015-16
+25010100411,SHRI MAHESHKUMAR K. SIKOTARIYA,Male,52,OBC,Teacher,Regular,1984,PG,B.El.Ed,Secondary Only,Language,Language,Language,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2007,N/A,No,2015-16
+25010100411,SHRI MANOJKUMAR NATHU BARIYA,Male,46,OBC,Teacher,Regular,2012,PG,B.El.Ed,Hr.Sec Only,Biology,Biology,Biology,0,0,0,0,0,Hr.Sec,PG,Secondary,2012,N/A,No,2015-16
+25010100411,SHRI PARSOTTAM L. KAPADIA,Male,53,OBC,Teacher,Regular,2005,PG,B.El.Ed,Secondary Only,Language,Language,Social Studies,0,0,0,0,0,Secondary,Secondary,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SHRI RAMESHCHANDRA P. JETHWA,Male,52,OBC,Teacher,Regular,1994,PG,B.El.Ed,Secondary Only,Science,Science,Mathematics,0,0,0,0,0,Hr.Sec,Hr.Sec,Secondary,2007,N/A,No,2015-16
+25010100411,SHRI SYAMA PRASAD PAL,Male,59,Others,Teacher,Regular,1983,Graduate,B.El.Ed,Secondary Only,Env Studies,Music,English,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2015,N/A,No,2015-16
+25010100411,SHRI VIJAYKUMAR JIVA BAMANIA,Male,41,OBC,Teacher,Regular,2004,PG,B.El.Ed,Hr.Sec Only,Philosophy,Philosophy,Business Studies,0,0,0,0,0,Secondary,Graduate,Secondary,2009,N/A,No,2015-16
+25010100411,SMT SHARMILA GHANSHYAM DIVECHA,Female,42,OBC,Teacher,Regular,2012,PG,B.El.Ed,Hr.Sec Only,All Subjects,All Subjects,Others,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2012,N/A,No,2015-16
+25010100411,SMT. JAYSHREE PANCHA KAPADIA,Female,40,OBC,Teacher,Contract,2006,PG,B.El.Ed,Hr.Sec Only,Others,Others,Others,0,0,0,0,0,Secondary,Secondary,PG,2006,N/A,No,2015-16
+25010100411,SMT. KAUSHIKA SAKARLAL CHAUHAN,Female,32,OBC,Teacher,Contract,2006,PG,B.El.Ed,Hr.Sec Only,Language,Language,Chemistry,0,0,0,0,0,Secondary,Graduate,Hr.Sec,2006,N/A,No,2015-16
+25010100411,SMT. PARUL H. RATHOD,Female,35,SC,Teacher,Contract,2013,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SMT. SUMITRA JAYANTILAL RAJPUT,Female,31,OBC,Teacher,Contract,2013,PG,B.El.Ed,Hr.Sec Only,Language,Language,Language,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
+25010100411,SMT. URVASHIBEN RATILAL SOLANKI,Female,29,OBC,Teacher,Contract,2013,PG,B.El.Ed,Hr.Sec Only,Chemistry,Chemistry,Chemistry,0,0,0,0,0,Secondary,Hr.Sec,Hr.Sec,2013,N/A,No,2015-16
