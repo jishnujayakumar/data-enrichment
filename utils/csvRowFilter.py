@@ -78,15 +78,27 @@ class csvRowFilter:
 
 		print "Deleting duplicate row entries."
 
+		rowsToBeDeleted.sort()
+
 		for i in rowsToBeDeleted:
+
+			print('deleting duplicate row#:' + str(i-count))
+
+			#print self.ROWS[i-count]
 
 			self.ROWS.remove(self.ROWS[i-count])
 
 			count = count + 1
 
+		rowsToBeAdded.sort()
+
 		print "Adding merged row entries"
 
 		for i in range(0,len(rowsToBeAdded)):
+
+			print('adding combined row:' + str(i + 1) + ' out of ' + str(len(rowsToBeAdded)))
+
+			#print self.ROWS[i]
 
 			self.ROWS.append(rowsToBeAdded[i])	
 	

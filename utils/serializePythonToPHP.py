@@ -1,13 +1,20 @@
 import os
 import sys
 import csv
+import errno
+from csvRowFilter import csvRowFilter
+from csvFileJoiner import csvFileJoiner
 from phpserialize import serialize, unserialize #Python replacement for PHP's serialize | https://gist.githubusercontent.com/sj26/292552/raw/ce68608a590918438c365027ebb17a85d9a0af3e/phpserialize.py
 
 class serializePythonToPHP:
 
-	def __init__(self,csvFilePath):
+	def __init__(self,csvFilePath, place):
+
+		self.place = place
 
 		self.schoolCodeSet = set()
+
+		self.temp_file_name = 'raw_merged.csv'
 
 		try:
 
@@ -24,20 +31,28 @@ class serializePythonToPHP:
 			self.ROWS.append(row)
 
 		self.inital_size = len(self.ROWS)
-		
+
 		self.columnIds=self.ROWS[0]
+
+		self.columnIds[0] = self.columnIds[0].upper()
 
 	def getUniquesSchoolCodes(self):
 
-		for row in self.ROWS:
+		for i,row in enumerate(self.ROWS):
+
+			if i==0:
+
+				continue
 
 			self.schoolCodeSet.add(row[0])
 
-	def startSerializing(self, path, fileName):
+	def startSerializing(self, path, fileName, keyColumnIds):
+
+		self.makeSurePathExists(path)
 
 		self.getUniquesSchoolCodes() # get unique schoolcodes
 
-		outputColumnHeaders = ['school_code']
+		outputColumnHeaders = [self.columnIds[0]]
 
 		data = []
 
@@ -86,6 +101,18 @@ class serializePythonToPHP:
 
 		self.write_to_csv(path, fileName, final_output)
 
+		joinerObj = csvFileJoiner(path)
+
+		joinerObj.joinAndGenerateCSVFiles(path, self.temp_file_name)
+
+		self.performRowFilter(path, self.temp_file_name, keyColumnIds)
+
+		os.remove(str(os.path.abspath(os.path.join(path, 'serialized_teachers.csv'))))
+		os.remove(str(os.path.abspath(os.path.join(path, self.temp_file_name))))
+
+	def performRowFilter(self, path, fileName, keyColumnIds):
+		row_filter = csvRowFilter(str(os.path.abspath(os.path.join(path, self.temp_file_name))), keyColumnIds)
+		row_filter.startFiltering(path+ '../merged', self.place+".csv")
 
 	def write_to_csv(self,path,fileName, data):
 		with open(os.path.join(path, fileName), "w") as f:
@@ -95,3 +122,9 @@ class serializePythonToPHP:
 		print("Output: " + str(os.path.abspath(os.path.join(path, fileName))))
 
 
+	def makeSurePathExists(self,path):
+	    try:
+	        os.makedirs(path)
+	    except OSError as exception:	
+	    	if exception.errno != errno.EEXIST:
+	            raise
