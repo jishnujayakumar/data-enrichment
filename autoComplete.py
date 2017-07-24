@@ -326,11 +326,4 @@ class AutoComplete():
 
     def _releaseMemory(self):
         self.json_objects.clear()
-
-
-if __name__ == '__main__':
-
-    key = 'AIzaSyC5-mD5yfBlyy1K7H_HKhCk-05d9kF02_k'  #Akarsh
-    a=AutoComplete(key)
-    a._autoCompleteWithPlaceID('/home/jishnu/Documents/github/data-enrichment/input/test/place_id_files')
     
