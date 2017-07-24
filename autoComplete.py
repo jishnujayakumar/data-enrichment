@@ -23,6 +23,21 @@ class AutoComplete():
         self.json_objects = dict()
         self.gmap_api = GMAP_ID()
 
+    def main(self,rows_data,state):
+        self.rows = rows_data
+        self._autoComplete(state)
+        self._updateAddress()
+        self._googleUpdates()
+        self._remove_intra_duplicates()
+        self._addLocationPhoto()
+        self._addRatingsReviews()
+        self._formatWorkinghours()
+        # Dictionary self.json_objects is large
+        # This should be released before the next file is opened as the current object won't go out of scope.
+        # So _releaseMemory() should be the last function to run. Place other functions before this.
+        self._releaseMemory()
+
+    ''' main updated
     def main(self,rows_data,state, directoryPath):
         self.rows = rows_data
         #self._autoComplete(state)
@@ -37,6 +52,7 @@ class AutoComplete():
         # This should be released before the next file is opened as the current object won't go out of scope.
         # So _releaseMemory() should be the last function to run. Place other functions before this.
         self._releaseMemory()
+    '''
 
     def getAllStateCSVFiles(self, directoryPath):
 
@@ -317,3 +333,4 @@ if __name__ == '__main__':
     key = 'AIzaSyC5-mD5yfBlyy1K7H_HKhCk-05d9kF02_k'  #Akarsh
     a=AutoComplete(key)
     a._autoCompleteWithPlaceID('/home/jishnu/Documents/github/data-enrichment/input/test/place_id_files')
+    
