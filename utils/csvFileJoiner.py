@@ -12,7 +12,9 @@ class csvFileJoiner:
 		self.fileDirectoryPath = fileDirectoryPath
 		for file in os.listdir(self.fileDirectoryPath):
 		    if file.endswith(".csv"):	
-		    	self.fileFrames.append(pd.read_csv(os.path.join(self.fileDirectoryPath, file)))	
+		    	dataframe=pd.read_csv(os.path.join(self.fileDirectoryPath, file))
+		    	dataframe.columns = map(str.upper, dataframe.columns) #Converting the coloumn header to upper case (Capital case)
+		    	self.fileFrames.append(dataframe)	
 		if len(self.fileFrames) > 0:	
 			self.dirContainsFile = True
 

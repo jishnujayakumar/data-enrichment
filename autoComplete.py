@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import requests
+import os
 import csv
 import sys
 import glob
@@ -17,13 +18,15 @@ class AutoComplete():
         self.key_index=0
         self.key = self.GOOGLE_API_KEYS[self.key_index]
         self.rows = []
+        self.stateCSVFilesWithPlaceID = []
         # GLOBAL JSON DICTIONARY TO BE USED BY ALL FUNCTION RATHER THAN MAKING  DIRECT API CALLS
         self.json_objects = dict()
         self.gmap_api = GMAP_ID()
 
-    def main(self,rows_data,state):
+    def main(self,rows_data,state, directoryPath):
         self.rows = rows_data
-        self._autoComplete(state)
+        #self._autoComplete(state)
+        self._autoCompleteWithPlaceID(directoryPath)
         self._updateAddress()
         self._googleUpdates()
         self._remove_intra_duplicates()
@@ -34,6 +37,14 @@ class AutoComplete():
         # This should be released before the next file is opened as the current object won't go out of scope.
         # So _releaseMemory() should be the last function to run. Place other functions before this.
         self._releaseMemory()
+
+    def getAllStateCSVFiles(self, directoryPath):
+
+        for file in os.listdir(directoryPath):
+            if file.endswith(".csv"):   
+                self.stateCSVFilesWithPlaceID.append(os.path.join(directoryPath, file))   
+        if len(self.stateCSVFilesWithPlaceID) == 0:    
+            print('Warning!!! : State directory empty')
 
     def _autoComplete(self,state):
         fixed_count = 0
@@ -67,6 +78,74 @@ class AutoComplete():
         print 'VERIFIED     : ',fixed_count
         print 'NOT VERIFIED : ',no_prediction_count
         print '####################\n'
+
+    def _autoCompleteWithPlaceID(self, directoryPath):
+        
+        print '\nRUNNING AUTOCOMPLETE With Place ID at index 12 and column header h_place_id'
+
+        self.getAllStateCSVFiles(directoryPath)
+
+        for index,file in enumerate(self.stateCSVFilesWithPlaceID):
+
+            print("File:" + str(file))
+
+            current_place_id_list = set()
+
+            #get unique place id from the current file
+
+            for row in csv.reader(open(file)):
+
+                if(row[12] == ""):
+
+                    continue
+
+                elif row[12] == None:
+
+                    continue
+
+                elif row[12] == "None":
+
+                    continue
+
+                elif len(row[12])==0:
+
+                    continue
+
+                else:
+
+                    current_place_id_list.add(row[12])
+
+            #print(str(len(current_place_id_list)))
+
+            current_place_id_list = list(current_place_id_list)
+
+            #iterate through each of the place_id and store it in place_id variable
+
+            counter=0
+
+            for place_id in current_place_id_list:
+
+                counter = counter + 1
+                print "******************************"
+                print("PLACE_ID:" + place_id + " | counter:" + str(counter) + "/" + str(len(current_place_id_list)) + " | File#:" + str(index+1) + "/" + str(len(self.stateCSVFilesWithPlaceID)) + " | " +  file)
+
+
+                resp_x = self.gmap_api.get_id_details(place_id)
+
+                if resp_x['status_code'] == 201:
+                
+                    self.json_objects[place_id]=resp_x['place_details']
+
+                    #print("PLACE_ID:" + str(place_id) + " | JSON_OBJECTS:" + str(self.json_objects))
+                
+                elif (400 <= resp_x['status_code'] < 600):
+                
+                    print 'ERROR:', repr(resp_x)
+                
+                    #sys.exit(0)
+
+        print("JSON_OBJECTS:\n" + str(self.json_objects))
+
 
     def _updateAddress(self):
         print 'UPDAING ADDRESS'
@@ -231,3 +310,10 @@ class AutoComplete():
 
     def _releaseMemory(self):
         self.json_objects.clear()
+
+
+if __name__ == '__main__':
+
+    key = 'AIzaSyC5-mD5yfBlyy1K7H_HKhCk-05d9kF02_k'  #Akarsh
+    a=AutoComplete(key)
+    a._autoCompleteWithPlaceID('/home/jishnu/Documents/github/data-enrichment/input/test/place_id_files')
