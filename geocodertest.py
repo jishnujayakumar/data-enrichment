@@ -70,7 +70,7 @@ class geocoderTest():
         sys.exit()
 
     def process(self):
-        fileNames = glob.glob('./input/*.csv');
+        fileNames = glob.glob('./input/J/*.csv');
         print fileNames
         fileCount = 0
         for fileName in fileNames:
@@ -78,10 +78,12 @@ class geocoderTest():
             self.FIELDS = []
             fileBaseName = os.path.splitext(os.path.basename(fileName))[0]
             self._readCSV(fileName)
-            state = self.get_state(self.rows[0]['City'])
+            
+            #state = self.get_state(self.rows[0]['City'])
+            state = self.rows[0]['State']
 
-            self.removeDuplicates.processAll(self.rows)
-            self._removeThumbs()
+            #self.removeDuplicates.processAll(self.rows)
+            #self._removeThumbs()
             print "\nCurrent file is",fileName,"\n"
 
 #             self.download_images(self.rows)
@@ -96,7 +98,7 @@ class geocoderTest():
             '''
             # self._formatWorkinghours()
             fileCount +=1
-            self._writeCSV("./output/processed_"+fileBaseName+".csv");
+            self._writeCSV("./input/output/processed_"+fileBaseName+".csv");
             print("***Successfully processed "+str(fileCount)+" files.***");
 
     def _readCSV(self, fileName):
@@ -131,6 +133,7 @@ class geocoderTest():
         '''
 
         for row in self.rows:
+            row["Country"] = "India"
             new_city, lat_prec, lng_prec = '', '', ''
             if (row["lat"] is None or row["lat"] == ""):
                 #row = self.rows[0]

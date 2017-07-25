@@ -162,9 +162,9 @@ class processGraph:
         websites = []
         emails = []
 
-        for i in range(1,6):
-            if row['Phone'+str(i)]:
-                phones.append(self.number_parser(row['Phone'+str(i)]))
+        #for i in range(1,6):
+        #    if row['Phone'+str(i)]:
+        #        phones.append(self.number_parser(row['Phone'+str(i)]))
         if row['Website']:
             websites.append(row['Website'].strip())
         if row['Website2']:

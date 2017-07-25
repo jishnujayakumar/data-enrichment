@@ -29,7 +29,7 @@ class AutoComplete():
         self._remove_intra_duplicates()
         self._addLocationPhoto()
         self._addRatingsReviews()
-        self._formatWorkinghours()
+        #self._formatWorkinghours()
         # Dictionary self.json_objects is large
         # This should be released before the next file is opened as the current object won't go out of scope.
         # So _releaseMemory() should be the last function to run. Place other functions before this.
@@ -42,24 +42,22 @@ class AutoComplete():
         print '\nRUNNING AUTOCOMPLETE'
         print 'STATE : ',state
 
-        for row in self.rows:
+        for i,row in enumerate(self.rows):
+
+            #print row
+
+            print("placeId:" + str(row['h_place_id'] + " | #:" + str(i) + "/" + str(len(self.rows))))
+
             row['State'] = state
             ######################
-            resp = self.gmap_api.get_id(row)
-            if resp['status_code'] == 201:
-                row['place_id'] = resp['place_id']
-                resp_x = self.gmap_api.get_id_details(resp['place_id'])
+            if(len(row['h_place_id'])!=0):
+                resp_x = self.gmap_api.get_id_details(row['h_place_id'])
                 if resp_x['status_code'] == 201:
-                    self.json_objects[resp['place_id']]=resp_x['place_details']
+                    self.json_objects[row['h_place_id']]=resp_x['place_details']
                     fixed_count += 1
                 elif (400 <= resp_x['status_code'] < 600):
-                    print 'ERROR:', repr(resp_x)
-                    sys.exit(0)
-            elif (400 <= resp['status_code'] < 600):
-                print 'ERROR:', repr(resp)
-                sys.exit(0)
-            else:
-                no_prediction_count += 1
+                   print 'ERROR:', repr(resp_x)
+                   sys.exit(0)
             #####################
             row.pop('State', None)
 
