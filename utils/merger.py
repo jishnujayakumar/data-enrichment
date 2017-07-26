@@ -86,13 +86,13 @@ class merger():
 
 		for file_number, file in enumerate(self.stateCSVFiles):
 
-			print("Merging File:" + str(file_number + 1) + " out of " + str(len(self.stateCSVFiles)) + " with merged.csv" + " | Current file:" + str(file))
-
 			output=[]
 
 			state=[]
 
 			List=[]
+
+			matched_state_row=[]
 
 			for row in csv.reader(open(file)):
 			
@@ -113,7 +113,7 @@ class merger():
 
 			for row_index,row in enumerate(state):
 
-				#print("Row_index:" + str(row_index) + " | row:" + str(row))
+				print("Merging File:" + str(file_number + 1) + "/" + str(len(self.stateCSVFiles)) + " with merged.csv" + " | Row#:" + str(row_index) + "/" + str(len(state)) + " | Current file:" + str(file))
 
 				List=[]
 
@@ -123,16 +123,26 @@ class merger():
 
 						continue
 
-					if(row[usefulMergedCSVColumns[2]] == ROW[usefulMergedCSVColumns[3]] and ROW[usefulMergedCSVColumns[3]]!='' and ROW[usefulMergedCSVColumns[3]]!='None'):
+					if(row[usefulMergedCSVColumns[2]] == ROW[usefulMergedCSVColumns[3]] and len(ROW[usefulMergedCSVColumns[3]])!=0 and ROW[usefulMergedCSVColumns[3]]!='None'):
 
 							self.rowsMarked.append(ROW_INDEX)
+
+							#print self.rowsMarked
+
+							matched_state_row.append(row_index)
 
 							List=state[row_index] + self.getRowDataof(ROW, usefulMergedCSVColumns[0])
 
 							output.append(List)
 
 							break
-
+			
+			for index,row in enumerate(state):
+				if index==0:
+					continue
+				#print(row)
+				if index not in matched_state_row:
+					output.append(row)
 			#print output
 
 			with open(file, "wb") as f:
@@ -144,8 +154,8 @@ class merger():
 if __name__ == '__main__':
 
 	
-	stateCSVDirectory = '../../input/' #Directory having place-id data
-	mergedCSVFileLocation = '../../output/test/csvRowFilter/row_filtered_updated_merged_output.csv' #This file has updated column headers based on sample.csv and it's duplicate row have been also remove based on ['Name', 'Pincode'] columns.
+	stateCSVDirectory = '../input/' #Directory having place-id data
+	mergedCSVFileLocation = '../output/test/csvRowFilter/row_filtered_updated_merged_output.csv' #This file has updated column headers based on sample.csv and it's duplicate row have been also remove based on ['Name', 'Pincode'] columns.
 	m = merger(stateCSVDirectory, mergedCSVFileLocation)
 	m.startMerging('h_place_id')    #Merge based on h_place_id column, any one key (column name) can be given. E.g. Here h_place_id is given
 	
