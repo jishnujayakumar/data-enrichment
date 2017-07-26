@@ -36,16 +36,10 @@ class AutoComplete():
         self._releaseMemory()
 
     def _autoComplete(self,state):
-
         print '\nRUNNING AUTOCOMPLETE'
         print 'STATE : ',state
-
         for i,row in enumerate(self.rows):
-
-            #print row
-
             print("placeId:" + str(row['h_place_id'] + " | #:" + str(i) + "/" + str(len(self.rows))))
-
             row['State'] = state
             ######################
             if(len(row['h_place_id'])!=0 and row['h_place_id'] != 'None'):
