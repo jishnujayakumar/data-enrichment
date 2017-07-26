@@ -29,15 +29,13 @@ class AutoComplete():
         self._remove_intra_duplicates()
         self._addLocationPhoto()
         self._addRatingsReviews()
-        #self._formatWorkinghours()
+        self._formatWorkinghours()
         # Dictionary self.json_objects is large
         # This should be released before the next file is opened as the current object won't go out of scope.
         # So _releaseMemory() should be the last function to run. Place other functions before this.
         self._releaseMemory()
 
     def _autoComplete(self,state):
-        fixed_count = 0
-        no_prediction_count = 0
 
         print '\nRUNNING AUTOCOMPLETE'
         print 'STATE : ',state
@@ -50,7 +48,7 @@ class AutoComplete():
 
             row['State'] = state
             ######################
-            if(len(row['h_place_id'])!=0):
+            if(len(row['h_place_id'])!=0 and row['h_place_id'] != 'None'):
                 resp_x = self.gmap_api.get_id_details(row['h_place_id'])
                 if resp_x['status_code'] == 201:
                     self.json_objects[row['h_place_id']]=resp_x['place_details']
@@ -60,11 +58,6 @@ class AutoComplete():
                    sys.exit(0)
             #####################
             row.pop('State', None)
-
-        print '####################'
-        print 'VERIFIED     : ',fixed_count
-        print 'NOT VERIFIED : ',no_prediction_count
-        print '####################\n'
 
     def _updateAddress(self):
         print 'UPDAING ADDRESS'
