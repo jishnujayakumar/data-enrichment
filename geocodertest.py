@@ -78,8 +78,7 @@ class geocoderTest():
             self.FIELDS = []
             fileBaseName = os.path.splitext(os.path.basename(fileName))[0]
             self._readCSV(fileName)
-            state = self.get_state(self.rows[0]['City'])
-
+            state = self.rows[0]['State']
             self.removeDuplicates.processAll(self.rows)
             self._removeThumbs()
             print "\nCurrent file is",fileName,"\n"
