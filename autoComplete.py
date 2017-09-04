@@ -69,7 +69,7 @@ class AutoComplete():
         print '####################\n'
 
     def _updateAddress(self):
-        print 'UPDAING ADDRESS'
+        print 'UPDATING ADDRESS'
         row_idx = 2
         for row in self.rows:
             if row['place_id'] is not None and row['place_id'] != '':
