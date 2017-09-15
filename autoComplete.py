@@ -54,7 +54,7 @@ class AutoComplete():
             row.pop('State', None)
 
     def _updateAddress(self):
-        print 'UPDAING ADDRESS'
+        print 'UPDATING ADDRESS'
         row_idx = 2
         for row in self.rows:
             if row['place_id'] is not None and row['place_id'] != '':
@@ -131,7 +131,7 @@ class AutoComplete():
 
     def _cityName(self, row, add_comp):
         union_territory = ['chandigarh','delhi','puducherry','lakshadweep','andaman and nicobar islands','dadra and nagar haveli','daman and diu']
-        gen_case = row['City']       # genral case
+        gen_case = row['City']       # general case
         for i in add_comp:
             if 'administrative_area_level_1' in i['types'] and i['long_name'].lower() in union_territory:
                 return i['long_name'].title()

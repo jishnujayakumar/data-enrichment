@@ -1,5 +1,7 @@
 ## Data Enrichment API
 
+Python Version 2.x
+
 This project is a generic API to enrich any input contact details.
 
 It leverages the following APIs for Data enrichment:
