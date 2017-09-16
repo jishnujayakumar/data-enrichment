@@ -39,14 +39,14 @@ class AutoComplete():
         print '\nRUNNING AUTOCOMPLETE'
         print 'STATE : ',state
         for i,row in enumerate(self.rows):
-            print("placeId:" + str(row['h_place_id'] + " | #:" + str(i) + "/" + str(len(self.rows))))
+            print("placeId:" + str(row['h_place_id'] + " | #:" + str(i+1) + "/" + str(len(self.rows))))
             row['State'] = state
             ######################
             if(len(row['h_place_id'])!=0 and row['h_place_id'] != 'None'):
                 resp_x = self.gmap_api.get_id_details(row['h_place_id'])
                 if resp_x['status_code'] == 201:
                     self.json_objects[row['h_place_id']]=resp_x['place_details']
-                    fixed_count += 1
+                    #fixed_count += 1
                 elif (400 <= resp_x['status_code'] < 600):
                    print 'ERROR:', repr(resp_x)
                    sys.exit(0)

@@ -1,3 +1,4 @@
+#from __future__ import print_function
 # -*- coding: utf-8 -*-
 import csv
 import logging
@@ -19,6 +20,8 @@ from autoComplete import AutoComplete
 from fbGraph import processGraph,UTF8
 from mediaWiki import mediaWiki
 from removeDuplicates import removeDuplicates
+from utils.mergeTwoFiles import merger
+from utils.serializePythonToPHP import serializePythonToPHP
 # from DownloadImage import DownloadImages
 
 
@@ -66,24 +69,32 @@ class geocoderTest():
         for row in self.state_data_rows:
             if row['Name of City'].strip().lower() == city.strip().lower():
                 return row['State']
-        print 'NO STATE MATCH FOR CITY :',city
+        print('NO STATE MATCH FOR CITY :'+city)
         sys.exit()
 
     def process(self):
-        fileNames = glob.glob('./input/*.csv');
-        print fileNames
+        fileNames = glob.glob('./input/*.csv')
+        mergedCSVFile = './input/references/merged-filtered.csv'
+        key1 = 'h_place_id'
+        key2 = ['EduID']
+        key3 = 'EduID'
         fileCount = 0
         for fileName in fileNames:
             self.rows = []
             self.FIELDS = []
             fileBaseName = os.path.splitext(os.path.basename(fileName))[0]
+            m = merger(fileName, mergedCSVFile, key1)
+            Inst_Teacher_File = './input/institute_teacher_data/'+fileBaseName+".csv"
+            s = serializePythonToPHP(Inst_Teacher_File, key2)
+            m = merger(fileName, Inst_Teacher_File, key3)
             self._readCSV(fileName)
             state = self.rows[0]['State']
             self.removeDuplicates.processAll(self.rows)
             self._removeThumbs()
-            print "\nCurrent file is",fileName,"\n"
+            print "\nCurrent file is",fileBaseName,"\n"
 
-#             self.download_images(self.rows)
+#           self.download_images(self.rows)
+            
             self.autoComp.main(self.rows,state)
             self.fbGraph.processAll(self.rows,state)
             self.wikipedia.processAll(self.rows)
@@ -97,7 +108,7 @@ class geocoderTest():
             fileCount +=1
             self._writeCSV("./output/processed_"+fileBaseName+".csv");
             print("***Successfully processed "+str(fileCount)+" files.***");
-
+            
     def _readCSV(self, fileName):
         inputFile = open(fileName, 'r')
         #sample_text = ''.join(inputFile.readline() for x in range(3))
