@@ -73,7 +73,7 @@ class geocoderTest():
         sys.exit()
 
     def process(self):
-        fileNames = glob.glob('./input/*.csv')
+        fileNames = glob.glob('./input/Main/*.csv')
         mergedCSVFile = './input/references/merged-filtered.csv'
         key1 = 'h_place_id'
         key2 = ['EduID']
