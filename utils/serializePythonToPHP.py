@@ -70,7 +70,7 @@ class serializePythonToPHP:
 
 			match_counter = 0
 
-			temp_details=[]
+			#temp_details=[]
 
 			for row in self.ROWS:
 
@@ -84,11 +84,11 @@ class serializePythonToPHP:
 
 						_dict[self.columnIds[i]] = item
 
-					#serial_str = serialize(_dict)
+					serial_str = serialize(_dict)
 
-					temp_details.append(_dict)
+					#temp_details.append(_dict)
 
-					#details.append(serial_str)
+					details.append(serial_str)
 
 					#details.append(_dict)					
 
@@ -96,19 +96,17 @@ class serializePythonToPHP:
 
 			#print temp_details
 
-			details.append(serialize(temp_details))
+			#details.append(serialize(temp_details))
 
 			data.append(details)
 
-			#reference_counter = max(reference_counter,match_counter)
-
-		'''	
+			reference_counter = max(reference_counter,match_counter)
+	
 		for index in range(0,reference_counter):
 
 			outputColumnHeaders.append('teacher_' + str(index))
-		'''
 
-		outputColumnHeaders.append('Serialized_teacher_data')
+		#outputColumnHeaders.append('Serialized_teacher_data')
 
 		final_output.append(outputColumnHeaders)
 
@@ -118,17 +116,12 @@ class serializePythonToPHP:
 
 		self.write_to_csv(final_output)
 
-	def performRowFilter(self, path, fileName, keyColumnIds):
-		row_filter = csvRowFilter(str(os.path.abspath(os.path.join(path, self.temp_file_name))), keyColumnIds)
-		row_filter.startFiltering(path+ '../merged', self.place+".csv")
-
 	def write_to_csv(self, data):
 		with open(self.csvFilePath, "w") as f:
 			writer = csv.writer(f)
 			writer.writerows(data)
 
-		print("Output: " + self.csvFilePath) #str(os.path.abspath(os.path.join(path, fileName))))
-
+		print("Output: " + self.csvFilePath)
 
 	def makeSurePathExists(self,path):
 	    try:
