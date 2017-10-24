@@ -84,3 +84,5 @@ In case you forget the session name, you can check out the active sessions in th
 
 All the terminal properties are preserved, and will happen relative to the session you start the jobs in.
 So running the script is same as described below.
+
+Note: This project is continued on `GitLabs`.
